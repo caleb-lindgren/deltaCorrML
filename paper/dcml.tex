@@ -162,7 +162,26 @@ The optimal scores for each target are reported in the table below.
   \end{tabular}
 % The hyperparameter set for each paramter is as follows: n_neighbors=[stuff], weights=[stuff], algorithm=[stuff], leaf_size=[stuff], and p=[stuff]. 
 
-\subsection{Naive Bayes}
+\subsection{Naïve Bayes}
+SciKit Learn does not currently have a Naïve Bayes classifyer that takes both continuous data and nominal data. We separated the continous data from the nominal and then ran SciKit's GaussianNB classifyer on the continous data and SciKit's MultinomialNB on the nominal data. Again, we used 10-fold cross validation and took the average accuracy, precision, and recall scores. The MultinomialNB classifyer scored similary to the MLP, however the GaussianNB classifyer performed poorly across all labels with accuracies ranging between 10 and 50 percent.
+
+\begin{table}[H]
+  \begin{center}
+  \begin{tabular}{ *{4}{l} }
+      \multicolumn{1}{p{1.5cm}}{\raggedright Target} &  
+      \multicolumn{1}{p{1.5cm}}{\raggedright Accuracy} &  
+      \multicolumn{1}{p{1.5cm}}{\raggedright Precision} &  
+      \multicolumn{1}{p{1.5cm}}{\raggedright Recall} \\ \hline \hline
+histologic\_grade         &       0.3499 &        0.3499 &     0.3499 \\ \hline
+histologic\_type          &       0.4776 &        0.4776 &     0.4776 \\ \hline
+recurrence\_status        &       0.2570 &        0.2570 &     0.2570 \\ \hline
+success\_last\_follow-up  &       0.1435 &        0.1435 &     0.1435 \\ \hline
+survival\_status          &       0.4482 &        0.4482 &     0.4482 \\ \hline
+tumor\_stage              &       0.3997 &        0.3997 &     0.3997 \\ \hline
+\end{tabular}
+\caption{Baseline scores for each target.}
+\end{center}
+\end{table}
 
 \section{Discussion}
 

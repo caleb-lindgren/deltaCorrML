@@ -50,7 +50,10 @@ Brigham Young University}
 \maketitle
 
 \begin{abstract}
-  Your abstract should concisely answer the following three questions: 1) what problem are you addressing? 2) what approach are you taking to solve the problem? 3) what are your results?
+  Cancer patients have abnormal RNA/protein correlations, compared to healthy patients.
+  We use various metric of aberrant RNA/protein correlations as features to predict clinical features (e.g survival) of cancer patients.
+  We assess the accuracy achived by three different models: MLP, KNN, and Naive Bayes. For survival and recurrance, all models achieve the ~80 percent accuracy. For other features Naieve Bayes outperformed MLP and KNN
+
 \end{abstract}
 
 \section{Introduction}
@@ -183,15 +186,54 @@ success\_last\_follow-up &              0.0164 &               0.0164 &         
 survival\_status        &              0.3066 &               0.3066 &            0.3066 \\
 tumor\_stage            &              0.1043 &               0.1043 &            0.1043 \\
 \end{tabular}
-\caption{MLP scores for each target after initial random hyperparameter search.}
+\caption{KNN scores for each target.}
 \end{center}
 \end{table}
 
-\subsection{Naive Bayes}
+\subsection{Naïve Bayes}
+SciKit Learn does not currently have a Naïve Bayes classifyer that takes both continuous data and nominal data. We separated the continous data from the nominal and then ran SciKit's GaussianNB classifyer on the continous data and SciKit's MultinomialNB on the nominal data. Again, we used 10-fold cross validation and took the average accuracy, precision, and recall scores. The MultinomialNB classifyer scored similary to the MLP, however the GaussianNB classifyer performed poorly across all labels with accuracies ranging between 10 and 50 percent.
+
+\begin{table}[H]
+  \begin{center}
+  \begin{tabular}{ *{4}{l} }
+      \multicolumn{1}{p{1.5cm}}{\raggedright Target} &  
+      \multicolumn{1}{p{1.5cm}}{\raggedright Accuracy} &  
+      \multicolumn{1}{p{1.5cm}}{\raggedright Precision} &  
+      \multicolumn{1}{p{1.5cm}}{\raggedright Recall} \\ \hline
+histologic\_grade         &       0.3499 &        0.3499 &     0.3499 \\
+histologic\_type          &       0.4776 &        0.4776 &     0.4776 \\
+recurrence\_status        &       0.2570 &        0.2570 &     0.2570 \\
+success\_last\_follow-up  &       0.1435 &        0.1435 &     0.1435 \\
+survival\_status          &       0.4482 &        0.4482 &     0.4482 \\
+tumor\_stage              &       0.3997 &        0.3997 &     0.3997 \\
+\end{tabular}
+\caption{Scores for GaussianNB on continuous data.}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+  \begin{center}
+  \begin{tabular}{ *{4}{l} }
+      \multicolumn{1}{p{1.5cm}}{\raggedright Target} &  
+      \multicolumn{1}{p{1.5cm}}{\raggedright Accuracy} &  
+      \multicolumn{1}{p{1.5cm}}{\raggedright Precision} &  
+      \multicolumn{1}{p{1.5cm}}{\raggedright Recall} \\ \hline
+histologic\_grade        &       0.4512 &        0.4512 &     0.4512 \\
+histologic\_type         &       0.5581 &        0.5581 &     0.5581 \\
+recurrence\_status       &       0.8098 &        0.8098 &     0.8098 \\
+success\_last\_follow-up &       0.5121 &        0.5121 &     0.5121 \\
+survival\_status         &       0.8253 &        0.8253 &     0.8253 \\
+tumor\_stage             &       0.5271 &        0.5271 &     0.5271 \\
+\end{tabular}
+\caption{Scores for MultinomialNB on nominal data.}
+\end{center}
+\end{table}
 
 \section{Discussion}
 
 Our dataset is not large enough to successfully learn this problem. For example, the best accuracies we achieved were around 80\% for the recurrence and survival status features; however, both features have about 80\% of patients in one class and 20\% in the other, so the models likely achieved this accuracy simply by guessing the majority class every time, and not really paying attention to any differences between samples. If we obtained a larger dataset, that would enable our models to learn more deeply about these problems.
+
+Additionally, the performance differences of the two different Naïve Bayes Classifyers suggests that the nominal features are more indicative of outcomes than the continous data.
 
 %% The file named.bst is a bibliography style file for BibTeX 0.99c
 \bibliographystyle{named}

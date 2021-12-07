@@ -55,11 +55,11 @@ Brigham Young University}
 
 \section{Introduction}
 There are several molecular process that occur in order for proteins, which perform the function of cells, to be made. 
-It begins with DNA (the instuctions for the cell), which gets transcribed to RNA (the messenger), which is then able to be translated to proteins. 
-Proteins are often refered to as the 'workhorses' of the cell, and are the molecules that actually carry out the instructions encoded in the DNA.
+It begins with DNA (the instructions for the cell), which gets transcribed to RNA (the messenger), which is then able to be translated to proteins. 
+Proteins are often referred to as the 'workhorses' of the cell, and are the molecules that actually carry out the instructions encoded in the DNA.
 The correlation between RNA and protein has been previously investigated \cite{waldbauer_transcriptome_2012} \cite{payne_utility_2015} \cite{han_transcriptome_2021}.
 We can use RNA/protein correlations to help us predict clinical outcomes of cancer patients. Cancer patients have an abnormal RNA/protein correlation when compared to healthy patients. 
-We will use these abnormal correaltions to prediect patient survival, recurrence status, histology, pathology, and measure of patient recovery. 
+We will use these abnormal correlations to predict patient survival, recurrence status, histology, pathology, and measure of patient recovery. 
 
 \section{Methods}
 
@@ -67,11 +67,11 @@ We will use these abnormal correaltions to prediect patient survival, recurrence
 
 \subsubsection{Inputs}
 
-Our original proteomics and transcriptomic data was obtained from the Cancer Proteomics Tumor Analysis Consortium (CPTAC) (TODO: CITE) using the \texttt{cptac} software package (TODO: CITE). Previous work (not yet published) calculated the change between tumor and normal RNA-protein correlation, or delta correlation, for each protein across all patients in each cancer type. These correlations were calculated using the Spearman method. Orthogonal residuals for tumor and normal for each patient in each protein's correlation plot were calculated using the \texttt{scipy.odr} module.
+Our original proteomic and transcriptomic data was obtained from the Cancer Proteomics Tumor Analysis Consortium (CPTAC) \cite{rodriguez_next_2021} using the \texttt{cptac} software package \cite{lindgren_simplified_2021}. Previous work (not yet published) calculated the change between tumor and normal RNA-protein correlation, or delta correlation, for each protein across all patients in each cancer type. These correlations were calculated using the Spearman method. Orthogonal residuals for tumor and normal for each patient in each protein's correlation plot were calculated using the \texttt{scipy.odr} module.
 
 We took the delta correlations and generated several features from them for training our models. This required some adaptation, as the delta correlations look at one protein across all patients, while we were interested in looking at one patient at a time. We thus sought to summarize the most important delta correlation information for each patient. First, we found the 25 proteins whose delta correlations had the greatest absolute value across all cancer types. Our reasoning was the the proteins with the greatest delta correlation were more likely to be informative. Then, for each patient, we calculated the change between tumor and normal residuals of the patient for each of those 25 proteins and saved these protein tumor-normal residual differences for each patient. We also noted whether that patient was above or below the tumor and normal regression lines for each protein.
 
-After calcuating these tumor-normal residual differences for the overall most important proteins in each patient, and the above or below regression line data for each protein in each patient, we calculated correlation between tumor and normal residuals for each patient in across all proteins. This used the Spearman method again, and provided with a single new feature for each patient, based on the delta correlation data.
+After calculating these tumor-normal residual differences for the overall most important proteins in each patient, and the above or below regression line data for each protein in each patient, we calculated correlation between tumor and normal residuals for each patient in across all proteins. This used the Spearman method again, and provided with a single new feature for each patient, based on the delta correlation data.
 
 Our final feature was not derived from the delta correlations. Instead, for each protein in each patient, we calculated the ratio of tumor RNA abundance to normal RNA abundance and the ratio of tumor protein abundance to normal protein abundance, then found the correlation for each patient between this RNA tumor-normal ratio and this protein tumor-normal ratio across all proteins. The goal was to generate a feature for each patient that reflected differences between RNA and protein data, but, unlike the delta correlation-derived data, did not depend on data across multiple patients, and thus could be calculated for a single new patient without needing to find how that data fit in with data from other patients.
 
@@ -95,7 +95,7 @@ In our data, some targets have more than two output classes. In these cases, pre
 
 To establish a baseline accuracy for the targets, we trained the SciKit Learn multi-layer perceptron (MLP) using the default hyperparameters, except reducing the hidden layers to one layer of 16 nodes, supposing that this simple model would give us a good idea of the complexity of the problem. The cancer type input feature, as well as all targets, were one-hot encoded. Testing with 10-fold cross-validation yielded these baseline results for each target:
 
-\bigskip
+\medskip
 
 \begin{table}[H]
 \begin{center}
@@ -104,12 +104,12 @@ To establish a baseline accuracy for the targets, we trained the SciKit Learn mu
     \multicolumn{1}{p{1.5cm}}{\raggedright Accuracy} &  
     \multicolumn{1}{p{1.5cm}}{\raggedright Precision} &  
     \multicolumn{1}{p{1.5cm}}{\raggedright Recall} \\ \hline \hline
-histologic grade       &         0.3309 &          0.3371 &       0.3434 \\ \hline
-histologic type        &         0.1949 &          0.1949 &       0.1949 \\ \hline
-recurrence status      &         0.7702 &          0.7733 &       0.7764 \\ \hline
-success last follow-up &         0.2570 &          0.2585 &       0.2600 \\ \hline
-survival status        &         0.8067 &          0.8113 &       0.8159 \\ \hline
-tumor stage            &         0.3578 &          0.3761 &       0.3945 \\ \hline
+histologic\_grade       &         0.3309 &          0.3371 &       0.3434 \\ \hline
+histologic\_type        &         0.1949 &          0.1949 &       0.1949 \\ \hline
+recurrence\_status      &         0.7702 &          0.7733 &       0.7764 \\ \hline
+success\_last\_follow-up &         0.2570 &          0.2585 &       0.2600 \\ \hline
+survival\_status        &         0.8067 &          0.8113 &       0.8159 \\ \hline
+tumor\_stage            &         0.3578 &          0.3761 &       0.3945 \\ \hline
 \end{tabular}
 \caption{Baseline scores for each target.}
 \end{center}
@@ -117,7 +117,29 @@ tumor stage            &         0.3578 &          0.3761 &       0.3945 \\ \hli
 
 \subsection{Multi-layer perceptron}
 
-After establishing the baseline accuracy using an MLP, we initially tried to optimize all hyperparameters at once using the SciKit Learn randomized cross-validation search. This method draws random combinations of hyperparameters from user-provided distributions and tests them, returning the best combinations it finds. However, we found that it took too many iterations to happen upon good parameter combinations if all parameters were being randomly selected at once. So, we instead decided to only use the random search to optimize one hyperparameter at a time, holding all others constant. Using this method, we obtained the following results for each target:
+After establishing the baseline accuracy using an MLP, we initially tried to optimize all hyperparameters at once using the SciKit Learn randomized cross-validation search. This method draws random combinations of hyperparameters from user-provided distributions and tests them, returning the best combinations it finds. This did lead to improvements in all metrics for the "histologic\_grade" and "success\_last\_follow-up" targets, and a marginal improvement in the recall for "recurrence\_status", as shown below:
+
+\medskip
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ *{4}{l} }
+    \multicolumn{1}{p{1.5cm}}{\raggedright Target} &  
+    \multicolumn{1}{p{1.5cm}}{\raggedright Accuracy} &  
+    \multicolumn{1}{p{1.5cm}}{\raggedright Precision} &  
+    \multicolumn{1}{p{1.5cm}}{\raggedright Recall} \\ \hline \hline
+histologic\_grade       &              \textbf{0.3669} &               \textbf{0.3822} &            \textbf{0.4012} \\
+histologic\_type        &              0.1411 &               0.1441 &            0.1599 \\
+recurrence\_status      &              0.7653 &               0.7711 &            \textbf{0.7769} \\
+success\_last\_follow-up &              \textbf{0.3085} &               \textbf{0.3208} &            \textbf{0.3473} \\
+survival\_status        &              0.7990 &               0.8005 &            0.8021 \\
+tumor\_stage            &              0.2059 &               0.2170 &            0.2282 \\
+\end{tabular}
+\caption{MLP scores for each target after initial random hyperparameter search.}
+\end{center}
+\end{table}
+
+However, for the rest of the targets this random search actually led to decreased scores. We believe this is because it takes too many iterations to happen upon good parameter combinations if all parameters were being randomly selected at once. So, we instead decided to only use the random search to optimize one hyperparameter at a time, holding all others constant. Using this method, we obtained the following results for each target:
 
 \subsection{k-nearest neighbors}
 We used sklearn's KNeighbors model. 10 cross fold validation was used and accuracy, precision, and recall scores were reported. 
@@ -128,7 +150,7 @@ We optimized the parameters using sklearn's RandomizedSearchCV.
 
 \section{Discussion}
 
-Our dataset is not large enough to successfully learn this problem. For example, the best accuracies we achieved were slightly above 80\% for the recurrence and survival status features; however, both features have about 80\% of patients in one class and 20\% in the other, so the models likely achieved this accuracy simply by guessing the majority class every time, and not really paying attention to any differences between samples. If we obtained a larger dataset, that would enable our models to learn more deeply about these problems.
+Our dataset is not large enough to successfully learn this problem. For example, the best accuracies we achieved were around 80\% for the recurrence and survival status features; however, both features have about 80\% of patients in one class and 20\% in the other, so the models likely achieved this accuracy simply by guessing the majority class every time, and not really paying attention to any differences between samples. If we obtained a larger dataset, that would enable our models to learn more deeply about these problems.
 
 %% The file named.bst is a bibliography style file for BibTeX 0.99c
 \bibliographystyle{named}

@@ -9,3 +9,5 @@ build/
 pancancerProteinMRNA_repo_path.txt
 *.aux
 *.log
+*.bbl
+*.blg

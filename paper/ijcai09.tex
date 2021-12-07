@@ -50,6 +50,9 @@ Brigham Young University}
 \end{abstract}
 
 \section{Introduction}
+There are several molecular process that occur for proteins to be made. 
+It begins with DNA (the instuctions for the cell), which gets transcribed to RNA, which is then able to be translated to proteins.
+In cancer patients the correlation of RNA and it's corresponding protein are different than in healthy patients. We can use this to predict clinical features. 
 
 \section{Methods}
 
@@ -58,6 +61,9 @@ Brigham Young University}
 \subsection{Multi-layer perceptron}
 
 \subsection{k-nearest neighbors}
+We used sklearn's KNeighbors model. 10 cross fold validation was used and accuracy, precision, and recall scores were reported. 
+We optimized the parameters using sklearn's RandomizedSearchCV.
+The hyperparameter set for each paramter is as follows: n_neighbors=[stuff], weights=[stuff], algorithm=[stuff], leaf_size=[stuff], and p=[stuff]. 
 
 \subsection{Naive Bayes}
 

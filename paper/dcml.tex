@@ -17,6 +17,10 @@
 \setlength{\tabcolsep}{0.25\tabcolsep}
 \usepackage{float}
 
+\usepackage{graphicx}
+\graphicspath{ {img/} }
+
+
 % the following package is optional:
 %\usepackage{latexsym} 
 
@@ -52,7 +56,7 @@ Brigham Young University}
 \begin{abstract}
   Cancer patients have abnormal RNA/protein correlations, compared to healthy patients.
   We use various metric of aberrant RNA/protein correlations as features to predict clinical features (e.g survival) of cancer patients.
-  We assess the accuracy achived by three different models: MLP, KNN, and Naive Bayes. For survival and recurrance, all models achieve the ~80 percent accuracy. For other features Naieve Bayes outperformed MLP and KNN
+  We assess the accuracy achived by three different models: MLP, KNN, and Naive Bayes. For survival and recurrance, all models achieve the ~80 percent accuracy. For other features Naieve Bayes outperformed MLP and KNN.
 
 \end{abstract}
 
@@ -74,9 +78,30 @@ Our original proteomic and transcriptomic data was obtained from the Cancer Prot
 
 We took the delta correlations and generated several features from them for training our models. This required some adaptation, as the delta correlations look at one protein across all patients, while we were interested in looking at one patient at a time. We thus sought to summarize the most important delta correlation information for each patient. First, we found the 25 proteins whose delta correlations had the greatest absolute value across all cancer types. Our reasoning was the the proteins with the greatest delta correlation were more likely to be informative. Then, for each patient, we calculated the change between tumor and normal residuals of the patient for each of those 25 proteins and saved these protein tumor-normal residual differences for each patient. We also noted whether that patient was above or below the tumor and normal regression lines for each protein.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{deltacorr}
+    \caption{First}
+    \label{fig:deltacorr}
+\end{figure}
+
 After calculating these tumor-normal residual differences for the overall most important proteins in each patient, and the above or below regression line data for each protein in each patient, we calculated correlation between tumor and normal residuals for each patient in across all proteins. This used the Spearman method again, and provided with a single new feature for each patient, based on the delta correlation data.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{tn_resid_corr}
+    \caption{First}
+    \label{fig:tn_resid_corr}
+\end{figure}
+
 Our final feature was not derived from the delta correlations. Instead, for each protein in each patient, we calculated the ratio of tumor RNA abundance to normal RNA abundance and the ratio of tumor protein abundance to normal protein abundance, then found the correlation for each patient between this RNA tumor-normal ratio and this protein tumor-normal ratio across all proteins. The goal was to generate a feature for each patient that reflected differences between RNA and protein data, but, unlike the delta correlation-derived data, did not depend on data across multiple patients, and thus could be calculated for a single new patient without needing to find how that data fit in with data from other patients.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{tn_ratio_corr}
+    \caption{First}
+    \label{fig:tn_ratio_corr}
+\end{figure}
 
 \subsubsection{Targets}
 
@@ -179,12 +204,12 @@ The optimal scores for each target are reported in the table below.
     \multicolumn{1}{p{1.5cm}}{\raggedright Accuracy} &  
     \multicolumn{1}{p{1.5cm}}{\raggedright Precision} &  
     \multicolumn{1}{p{1.5cm}}{\raggedright Recall} \\ \hline
-histologic\_grade       &              0.8126 &               0.8126 &            0.8126 \\
-histologic\_type        &              0.8250 &               0.8250 &            0.8250 \\
-recurrence\_status      &              0.3882 &               0.3882 &            0.3882 \\
-success\_last\_follow-up &              0.0164 &               0.0164 &            0.0164 \\
-survival\_status        &              0.3066 &               0.3066 &            0.3066 \\
-tumor\_stage            &              0.1043 &               0.1043 &            0.1043 \\
+histologic\_grade         &              \textbf{0.3882} &               \textbf{0.3882} &            \textbf{0.3882} \\
+histologic\_type          &              0.0164 &               0.0164 &            0.0164 \\
+recurrence\_status        &              \textbf{0.8126} &               \textbf{0.8126} &            \textbf{0.8126} \\
+success\_last\_follow-up  &              \textbf{0.3066} &               \textbf{0.3066} &            \textbf{0.3066} \\
+survival\_status          &              \textbf{0.8250} &               \textbf{0.8250} &            \textbf{0.8250} \\
+tumor\_stage              &              0.1043 &               0.1043 &            0.1043 \\
 \end{tabular}
 \caption{KNN scores for each target.}
 \end{center}
@@ -200,12 +225,12 @@ SciKit Learn does not currently have a Naïve Bayes classifyer that takes both c
       \multicolumn{1}{p{1.5cm}}{\raggedright Accuracy} &  
       \multicolumn{1}{p{1.5cm}}{\raggedright Precision} &  
       \multicolumn{1}{p{1.5cm}}{\raggedright Recall} \\ \hline
-histologic\_grade         &       0.3499 &        0.3499 &     0.3499 \\
-histologic\_type          &       0.4776 &        0.4776 &     0.4776 \\
+histologic\_grade         &       \textbf{0.3499} &        \textbf{0.3499} &     \textbf{0.3499} \\
+histologic\_type          &       \textbf{0.4776} &        \textbf{0.4776} &     \textbf{0.4776} \\
 recurrence\_status        &       0.2570 &        0.2570 &     0.2570 \\
 success\_last\_follow-up  &       0.1435 &        0.1435 &     0.1435 \\
 survival\_status          &       0.4482 &        0.4482 &     0.4482 \\
-tumor\_stage              &       0.3997 &        0.3997 &     0.3997 \\
+tumor\_stage              &       \textbf{0.3997} &        \textbf{0.3997} &     \textbf{0.3997} \\
 \end{tabular}
 \caption{Scores for GaussianNB on continuous data.}
 \end{center}
@@ -218,12 +243,12 @@ tumor\_stage              &       0.3997 &        0.3997 &     0.3997 \\
       \multicolumn{1}{p{1.5cm}}{\raggedright Accuracy} &  
       \multicolumn{1}{p{1.5cm}}{\raggedright Precision} &  
       \multicolumn{1}{p{1.5cm}}{\raggedright Recall} \\ \hline
-histologic\_grade        &       0.4512 &        0.4512 &     0.4512 \\
-histologic\_type         &       0.5581 &        0.5581 &     0.5581 \\
-recurrence\_status       &       0.8098 &        0.8098 &     0.8098 \\
-success\_last\_follow-up &       0.5121 &        0.5121 &     0.5121 \\
-survival\_status         &       0.8253 &        0.8253 &     0.8253 \\
-tumor\_stage             &       0.5271 &        0.5271 &     0.5271 \\
+histologic\_grade        &       \textbf{0.4512} &        \textbf{0.4512} &     \textbf{0.4512} \\
+histologic\_type         &       \textbf{0.5581} &        \textbf{0.5581} &     \textbf{0.5581} \\
+recurrence\_status       &       \textbf{0.8098} &        \textbf{0.8098} &     \textbf{0.8098} \\
+success\_last\_follow-up &       \textbf{0.5121} &        \textbf{0.5121} &     \textbf{0.5121} \\
+survival\_status         &       \textbf{0.8253} &        \textbf{0.8253} &     \textbf{0.8253} \\
+tumor\_stage             &       \textbf{0.5271} &        \textbf{0.5271} &     \textbf{0.5271} \\
 \end{tabular}
 \caption{Scores for MultinomialNB on nominal data.}
 \end{center}

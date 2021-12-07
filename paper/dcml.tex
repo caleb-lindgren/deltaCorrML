@@ -104,11 +104,11 @@ To establish a baseline accuracy for the targets, we trained the SciKit Learn mu
     \multicolumn{1}{p{1.5cm}}{\raggedright Accuracy} &  
     \multicolumn{1}{p{1.5cm}}{\raggedright Precision} &  
     \multicolumn{1}{p{1.5cm}}{\raggedright Recall} \\ \hline \hline
-recurrence status      &         0.7702 &          0.7733 &       0.7764 \\ \hline
-survival status        &         0.8067 &          0.8113 &       0.8159 \\ \hline
 histologic grade       &         0.3309 &          0.3371 &       0.3434 \\ \hline
 histologic type        &         0.1949 &          0.1949 &       0.1949 \\ \hline
+recurrence status      &         0.7702 &          0.7733 &       0.7764 \\ \hline
 success last follow-up &         0.2570 &          0.2585 &       0.2600 \\ \hline
+survival status        &         0.8067 &          0.8113 &       0.8159 \\ \hline
 tumor stage            &         0.3578 &          0.3761 &       0.3945 \\ \hline
 \end{tabular}
 \caption{Baseline scores for each target.}
@@ -127,6 +127,8 @@ We optimized the parameters using sklearn's RandomizedSearchCV.
 \subsection{Naive Bayes}
 
 \section{Discussion}
+
+Our dataset is not large enough to successfully learn this problem. For example, the best accuracies we achieved were slightly above 80\% for the recurrence and survival status features; however, both features have about 80\% of patients in one class and 20\% in the other, so the models likely achieved this accuracy simply by guessing the majority class every time, and not really paying attention to any differences between samples. If we obtained a larger dataset, that would enable our models to learn more deeply about these problems.
 
 %% The file named.bst is a bibliography style file for BibTeX 0.99c
 \bibliographystyle{named}

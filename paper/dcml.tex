@@ -56,7 +56,7 @@ Brigham Young University}
 \begin{abstract}
   Cancer patients have abnormal RNA/protein correlations, compared to healthy patients.
   We use various metric of aberrant RNA/protein correlations as features to predict clinical features (e.g survival) of cancer patients.
-  We assess the accuracy achived by three different models: MLP, KNN, and Naive Bayes. For survival and recurrance, all models achieve the ~80 percent accuracy. For other features Naieve Bayes outperformed MLP and KNN.
+  We assess the accuracy achieved by three different models: MLP, KNN, and Naive Bayes. For survival and recurrence, all models achieve the ~80 percent accuracy. For other features Naive Bayes outperformed MLP and KNN.
 
 \end{abstract}
 
@@ -81,7 +81,7 @@ We took the delta correlations and generated several features from them for trai
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{deltacorr}
-    \caption{First}
+    \caption{RNA to protein correlation plot for a single protein. Orange is tumor, blue is normal; orthogonal residuals are shown. Delta correlation is the difference between the tumor correlation coefficient and the normal correlation coefficient.}
     \label{fig:deltacorr}
 \end{figure}
 
@@ -90,18 +90,18 @@ After calculating these tumor-normal residual differences for the overall most i
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{tn_resid_corr}
-    \caption{First}
+    \caption{Normal residual to tumor residual correlation plot for a single patient.}
     \label{fig:tn_resid_corr}
 \end{figure}
-
-Our final feature was not derived from the delta correlations. Instead, for each protein in each patient, we calculated the ratio of tumor RNA abundance to normal RNA abundance and the ratio of tumor protein abundance to normal protein abundance, then found the correlation for each patient between this RNA tumor-normal ratio and this protein tumor-normal ratio across all proteins. The goal was to generate a feature for each patient that reflected differences between RNA and protein data, but, unlike the delta correlation-derived data, did not depend on data across multiple patients, and thus could be calculated for a single new patient without needing to find how that data fit in with data from other patients.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{tn_ratio_corr}
-    \caption{First}
+    \caption{RNA tumor-normal ratio to protein tumor-normal ratio correlation plot for a single patient.}
     \label{fig:tn_ratio_corr}
 \end{figure}
+
+Our final feature was not derived from the delta correlations. Instead, for each protein in each patient, we calculated the ratio of tumor RNA abundance to normal RNA abundance and the ratio of tumor protein abundance to normal protein abundance, then found the correlation for each patient between this RNA tumor-normal ratio and this protein tumor-normal ratio across all proteins. The goal was to generate a feature for each patient that reflected differences between RNA and protein data, but, unlike the delta correlation-derived data, did not depend on data across multiple patients, and thus could be calculated for a single new patient without needing to find how that data fit in with data from other patients.
 
 \subsubsection{Targets}
 
@@ -192,7 +192,7 @@ tumor\_stage            &       \textbf{0.366288} &        \textbf{0.409233} &  
 
 The first parameter that was optimized was k. We found that accuracy ceased to improve once k \textgreater  20. 
 As with MLP, we tested a combination of hyperparameters. 
-Due to the speed of KNN we were able to test a wide range of parameters. We were able to test every possible input for weights (the weight function used in predeiction), algorithm (the alsgorithm used to compute the nearest neighbors), and p (the parameter for the Minkowski metric). 
+Due to the speed of KNN we were able to test a wide range of parameters. We were able to test every possible input for weights (the weight function used in prediction), algorithm (the algorithm used to compute the nearest neighbors), and p (the parameter for the Minkowski metric). 
 n\_neighbors and leaf\_size tested a range of numbers, 10-100 and 2-50 respectively.
 The optimal scores for each target are reported in the table below.
 
@@ -216,7 +216,7 @@ tumor\_stage              &              0.1043 &               0.1043 &        
 \end{table}
 
 \subsection{Naïve Bayes}
-SciKit Learn does not currently have a Naïve Bayes classifyer that takes both continuous data and nominal data. We separated the continous data from the nominal and then ran SciKit's GaussianNB classifyer on the continous data and SciKit's MultinomialNB on the nominal data. Again, we used 10-fold cross validation and took the average accuracy, precision, and recall scores. The MultinomialNB classifyer scored similary to the MLP, however the GaussianNB classifyer performed poorly across all labels with accuracies ranging between 10 and 50 percent.
+SciKit Learn does not currently have a Naïve Bayes classifier that takes both continuous data and nominal data. We separated the continuous data from the nominal and then ran Sci-Kit's GaussianNB classifier on the continuous data and Sci-Kit's MultinomialNB on the nominal data. Again, we used 10-fold cross validation and took the average accuracy, precision, and recall scores. The MultinomialNB classifier scored similarly to the MLP, however the GaussianNB classifier performed poorly across all labels with accuracies ranging between 10 and 50 percent.
 
 \begin{table}[H]
   \begin{center}
@@ -256,9 +256,17 @@ tumor\_stage             &       \textbf{0.5271} &        \textbf{0.5271} &     
 
 \section{Discussion}
 
-Our dataset is not large enough to successfully learn this problem. For example, the best accuracies we achieved were around 80\% for the recurrence and survival status features; however, both features have about 80\% of patients in one class and 20\% in the other, so the models likely achieved this accuracy simply by guessing the majority class every time, and not really paying attention to any differences between samples. If we obtained a larger dataset, that would enable our models to learn more deeply about these problems.
+Our analysis yielded mixed results. For the recurrence and survival targets, our dataset is not large enough to successfully learn this problem. The best accuracies we achieved for those two features were both around 80\%; however, both features have about 80\% of patients in one class and 20\% in the other, so the models achieved this accuracy simply by guessing the majority class every time, and not really paying attention to any differences between samples. If we obtained a larger dataset, that would enable our models to learn more deeply about these features.
 
-Additionally, the performance differences of the two different Naïve Bayes Classifyers suggests that the nominal features are more indicative of outcomes than the continous data.
+Our model did perform slightly better on the other 4 targets. However, the best accuracies were still not hugely better than the proportion of samples that were in the majority class for the target, indicating again that our models were likely over-reliant on assuming the majority class from the training data. Again, a larger dataset would be the best way to address this issue.
+
+Additionally, the performance differences of the two different Naïve Bayes classifiers suggests that the nominal features are more indicative of outcomes than the continuous data.
+
+\section{Conclusion and future directions}
+
+Our analysis successfully improved our prediction accuracies compared to the baseline scores. However, our best accuracies on each target were consistently similar to the proportion of samples in the majority class for that target, indicating an over-reliance in the models of just assuming the majority class found in the training data. This limitation is primarily due to the small number of samples we have for such a complex dataset. Quantitative proteomic and transcriptomic data are notorious for containing large amounts of noise, and it appears that in this situation, the noise prevented successful learning from the small number of samples we have.
+
+Future directions include obtaining more training data. Although it would be expensive to augment as comprehensive of a dataset as CPTAC's, that is an eventual goal for all proteogenomic cancer research. The CPTAC dataset is certainly the best we have so far, but there is much more that needs to be done in the future as sample analysis capabilities improve. However, before that time comes, additional work could be done in our current workflow to improve the features we're working with. For example, our simple metric of including the residual differences from the proteins with the top 25 largest delta correlations leaves out huge amounts of data. A more nuanced selection or pooling calculation would likely improve the utility of the feature. Similar possibilities exist for the other feature calculations we performed.
 
 %% The file named.bst is a bibliography style file for BibTeX 0.99c
 \bibliographystyle{named}

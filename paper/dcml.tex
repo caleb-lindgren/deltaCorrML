@@ -151,19 +151,24 @@ As with MLP, we tested a combination of hyperparameters.
 Due to the speed of KNN we were able to test a wide range of parameters. We were able to test every possible input for weights (the weight function used in predeiction), algorithm (the alsgorithm used to compute the nearest neighbors), and p (the parameter for the Minkowski metric). 
 n_neighbors and leaf_size tested a range of numbers, 10-100 and 2-50 respectively.
 The optimal scores for each target are reported in the table below.
-\begin{tabular}{lrrr}
-  \toprule
-  {} &  mean\_test\_accuracy &  mean\_test\_precision &  mean\_test\_recall \\
-  target                                             &                     &                      &                   \\
-  \midrule
-  Recurrence status (1, yes; 0, no)                  &              0.8126 &               0.8126 &            0.8126 \\
-  Survial status (1, dead; 0, alive)                 &              0.8250 &               0.8250 &            0.8250 \\
-  histologic\_grade                                   &              0.3882 &               0.3882 &            0.3882 \\
-  histologic\_type                                    &              0.0164 &               0.0164 &            0.0164 \\
-  measure\_of\_success\_of\_outcome\_at\_last\_available... &              0.3066 &               0.3066 &            0.3066 \\
-  pathologic\_staging\_primary\_tumor                   &              0.1043 &               0.1043 &            0.1043 \\
-  \bottomrule
+
+\begin{table}[H]
+  \begin{center}
+  \begin{tabular}{ *{4}{l} }
+
+      Recurrence status (1, yes; 0, no)                  &              0.8126 &               0.8126 &            0.8126 \\
+      Survial status (1, dead; 0, alive)                 &              0.8250 &               0.8250 &            0.8250 \\
+      histologic\_grade                                   &              0.3882 &               0.3882 &            0.3882 \\
+      histologic\_type                                    &              0.0164 &               0.0164 &            0.0164 \\
+      measure\_of\_success\_of\_outcome\_at\_last\_available... &              0.3066 &               0.3066 &            0.3066 \\
+      pathologic\_staging\_primary\_tumor                   &              0.1043 &               0.1043 &            0.1043 \\
+
+
   \end{tabular}
+  \caption{Baseline scores for each target.}
+  \end{center}
+  \end{table}
+
 % The hyperparameter set for each paramter is as follows: n_neighbors=[stuff], weights=[stuff], algorithm=[stuff], leaf_size=[stuff], and p=[stuff]. 
 
 \subsection{Naive Bayes}

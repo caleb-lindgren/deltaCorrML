@@ -103,13 +103,13 @@ To establish a baseline accuracy for the targets, we trained the SciKit Learn mu
     \multicolumn{1}{p{1.5cm}}{\raggedright Target} &  
     \multicolumn{1}{p{1.5cm}}{\raggedright Accuracy} &  
     \multicolumn{1}{p{1.5cm}}{\raggedright Precision} &  
-    \multicolumn{1}{p{1.5cm}}{\raggedright Recall} \\ \hline \hline
-histologic\_grade       &         0.3309 &          0.3371 &       0.3434 \\ \hline
-histologic\_type        &         0.1949 &          0.1949 &       0.1949 \\ \hline
-recurrence\_status      &         0.7702 &          0.7733 &       0.7764 \\ \hline
-success\_last\_follow-up &         0.2570 &          0.2585 &       0.2600 \\ \hline
-survival\_status        &         0.8067 &          0.8113 &       0.8159 \\ \hline
-tumor\_stage            &         0.3578 &          0.3761 &       0.3945 \\ \hline
+    \multicolumn{1}{p{1.5cm}}{\raggedright Recall} \\ \hline
+histologic\_grade       &         0.3309 &          0.3371 &       0.3434 \\
+histologic\_type        &         0.1949 &          0.1949 &       0.1949 \\
+recurrence\_status      &         0.7702 &          0.7733 &       0.7764 \\
+success\_last\_follow-up &         0.2570 &          0.2585 &       0.2600 \\
+survival\_status        &         0.8067 &          0.8113 &       0.8159 \\
+tumor\_stage            &         0.3578 &          0.3761 &       0.3945 \\
 \end{tabular}
 \caption{Baseline scores for each target.}
 \end{center}
@@ -127,7 +127,7 @@ After establishing the baseline accuracy using an MLP, we initially tried to opt
     \multicolumn{1}{p{1.5cm}}{\raggedright Target} &  
     \multicolumn{1}{p{1.5cm}}{\raggedright Accuracy} &  
     \multicolumn{1}{p{1.5cm}}{\raggedright Precision} &  
-    \multicolumn{1}{p{1.5cm}}{\raggedright Recall} \\ \hline \hline
+    \multicolumn{1}{p{1.5cm}}{\raggedright Recall} \\ \hline
 histologic\_grade       &              \textbf{0.3669} &               \textbf{0.3822} &            \textbf{0.4012} \\
 histologic\_type        &              0.1411 &               0.1441 &            0.1599 \\
 recurrence\_status      &              0.7653 &               0.7711 &            \textbf{0.7769} \\
@@ -139,28 +139,53 @@ tumor\_stage            &              0.2059 &               0.2170 &          
 \end{center}
 \end{table}
 
-However, for the rest of the targets this random search actually led to decreased scores. We believe this is because it takes too many iterations to happen upon good parameter combinations if all parameters were being randomly selected at once. So, we instead decided to only use the random search to optimize one hyperparameter at a time, holding all others constant. Using this method, we obtained the following results for each target:
+However, for the rest of the targets this random search actually led to decreased scores. We believe this is because it takes too many iterations to happen upon good parameter combinations if all parameters were being randomly selected at once. So, we instead decided to only use the random search to optimize one hyperparameter at a time, holding all others constant. Using this method, we obtained the following results for each target. This led to significant score improvements for "histologic\_grade", "histologic\_type", "success\_last\_follow-up", and "tumor\_stage".
+
+\medskip
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ *{4}{l} }
+    \multicolumn{1}{p{1.5cm}}{\raggedright Target} &  
+    \multicolumn{1}{p{1.5cm}}{\raggedright Accuracy} &  
+    \multicolumn{1}{p{1.5cm}}{\raggedright Precision} &  
+    \multicolumn{1}{p{1.5cm}}{\raggedright Recall} \\ \hline
+histologic\_grade       &       \textbf{0.521496} &        \textbf{0.521496} &     \textbf{0.521496} \\
+histologic\_type        &       \textbf{0.593371} &        \textbf{0.600994} &     \textbf{0.608617} \\
+recurrence\_status      &         0.7702 &          0.7733 &       0.7764 \\
+success\_last\_follow-up &       \textbf{0.517803} &        \textbf{0.517803} &     \textbf{0.517803} \\
+survival\_status        &         0.8067 &          0.8113 &       0.8159 \\
+tumor\_stage            &       \textbf{0.366288} &        \textbf{0.409233} &     \textbf{0.452178} \\
+\end{tabular}
+\caption{MLP scores for each target after initial random hyperparameter search.}
+\end{center}
+\end{table}
 
 \subsection{k-nearest neighbors}
+
 The first parameter that was optimized was k. We found that accuracy ceased to improve once k > 20. 
 As with MLP, we tested a combination of hyperparameters. 
 Due to the speed of KNN we were able to test a wide range of parameters. We were able to test every possible input for weights (the weight function used in predeiction), algorithm (the alsgorithm used to compute the nearest neighbors), and p (the parameter for the Minkowski metric). 
-n_neighbors and leaf_size tested a range of numbers, 10-100 and 2-50 respectively.
+n\_neighbors and leaf\_size tested a range of numbers, 10-100 and 2-50 respectively.
 The optimal scores for each target are reported in the table below.
-\begin{tabular}{lrrr}
-  \toprule
-  {} &  mean\_test\_accuracy &  mean\_test\_precision &  mean\_test\_recall \\
-  target                                             &                     &                      &                   \\
-  \midrule
-  Recurrence status (1, yes; 0, no)                  &              0.8126 &               0.8126 &            0.8126 \\
-  Survial status (1, dead; 0, alive)                 &              0.8250 &               0.8250 &            0.8250 \\
-  histologic\_grade                                   &              0.3882 &               0.3882 &            0.3882 \\
-  histologic\_type                                    &              0.0164 &               0.0164 &            0.0164 \\
-  measure\_of\_success\_of\_outcome\_at\_last\_available... &              0.3066 &               0.3066 &            0.3066 \\
-  pathologic\_staging\_primary\_tumor                   &              0.1043 &               0.1043 &            0.1043 \\
-  \bottomrule
-  \end{tabular}
-% The hyperparameter set for each paramter is as follows: n_neighbors=[stuff], weights=[stuff], algorithm=[stuff], leaf_size=[stuff], and p=[stuff]. 
+
+\medskip
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ *{4}{l} }
+    \multicolumn{1}{p{1.5cm}}{\raggedright Target} &  
+    \multicolumn{1}{p{1.5cm}}{\raggedright Accuracy} &  
+    \multicolumn{1}{p{1.5cm}}{\raggedright Precision} &  
+    \multicolumn{1}{p{1.5cm}}{\raggedright Recall} \\ \hline
+histologic\_grade       &              0.8126 &               0.8126 &            0.8126 \\
+histologic\_type        &              0.8250 &               0.8250 &            0.8250 \\
+recurrence\_status      &              0.3882 &               0.3882 &            0.3882 \\
+success\_last\_follow-up &              0.0164 &               0.0164 &            0.0164 \\
+survival\_status        &              0.3066 &               0.3066 &            0.3066 \\
+tumor\_stage            &              0.1043 &               0.1043 &            0.1043 \\
+\end{tabular}
+\caption{MLP scores for each target after initial random hyperparameter search.}
+\end{center}
+\end{table}
 
 \subsection{Naive Bayes}
 

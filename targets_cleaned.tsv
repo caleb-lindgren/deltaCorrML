@@ -1,4 +1,4 @@
-	Recurrence status (1, yes; 0, no)	Survial status (1, dead; 0, alive)	histologic_grade	histologic_type	measure_of_success_of_outcome_at_last_available_follow-up	pathologic_staging_primary_tumor
+	Recurrence status (1, yes; 0, no)	Survial status (1, dead; 0, alive)	histologic_grade	histologic_type	success_last_follow-up	tumor_stage
 C3L-00004	0.0	0.0	g3	clear cell renal cell carcinoma	unknown	t3
 C3L-00010	0.0	0.0	g3	clear cell renal cell carcinoma	complete remission	t1
 C3L-00011	0.0	1.0	g4	clear cell renal cell carcinoma	patient deceased	t3

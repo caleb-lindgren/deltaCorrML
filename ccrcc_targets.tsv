@@ -1,0 +1,111 @@
+0	Recurrence status (1, yes; 0, no)	Survial status (1, dead; 0, alive)	histologic_type	pathologic_staging_primary_tumor	histologic_grade	measure_of_success_of_outcome_at_last_available_follow-up
+C3L-00004	0.0	0.0	Clear cell renal cell carcinoma	t3	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Unknown
+C3L-00010	0.0	0.0	Clear cell renal cell carcinoma	t1	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3L-00011	0.0	1.0	Clear cell renal cell carcinoma	t3	G4: Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped	Patient Deceased
+C3L-00026	0.0	0.0	Clear cell renal cell carcinoma	t1	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3L-00079	0.0	1.0	Clear cell renal cell carcinoma	t3	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Patient Deceased
+C3L-00088	0.0	1.0	Clear cell renal cell carcinoma	t3	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Patient Deceased
+C3L-00096	0.0	1.0	Clear cell renal cell carcinoma	t3	G4: Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped	Patient Deceased
+C3L-00097	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3L-00103	1.0	0.0	Clear cell renal cell carcinoma	t3	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Persistent Disease
+C3L-00183	0.0	0.0	Clear cell renal cell carcinoma	t3	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Unknown
+C3L-00359	1.0	0.0	non-Clear cell renal cell carcinoma	t1	G1: Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous	Persistent Disease
+C3L-00360	0.0	0.0	Clear cell renal cell carcinoma	t2	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3L-00369	0.0	1.0	Clear cell renal cell carcinoma	t3	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Patient Deceased
+C3L-00416	0.0	0.0	Clear cell renal cell carcinoma	t3	G4: Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped	Unknown
+C3L-00418	0.0	0.0	Clear cell renal cell carcinoma	t3	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3L-00447	0.0	0.0	Clear cell renal cell carcinoma	t1	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3L-00448	1.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3L-00561	1.0	0.0	Clear cell renal cell carcinoma	t3	G4: Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped	Persistent Disease
+C3L-00581	1.0	1.0	Clear cell renal cell carcinoma	t2	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Patient Deceased
+C3L-00583	0.0	0.0	Clear cell renal cell carcinoma	t1	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3L-00606	1.0	1.0	Clear cell renal cell carcinoma	t3	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Patient Deceased
+C3L-00607	1.0	1.0	Clear cell renal cell carcinoma	t3	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Patient Deceased
+C3L-00610	0.0	0.0	Clear cell renal cell carcinoma	t1	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3L-00765	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3L-00766	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3L-00790	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3L-00791	0.0	0.0	Clear cell renal cell carcinoma	t1	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3L-00792	0.0	0.0	Clear cell renal cell carcinoma	t2	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3L-00796	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3L-00799	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Unknown
+C3L-00800	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3L-00812	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Unknown
+C3L-00813	0.0	0.0	Clear cell renal cell carcinoma	t3	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Unknown
+C3L-00814	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Unknown
+C3L-00817	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3L-00902	0.0	0.0	Clear cell renal cell carcinoma	t1	G1: Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous	
+C3L-00907	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	
+C3L-00908	0.0	0.0	Clear cell renal cell carcinoma	t2	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	
+C3L-00910	0.0	0.0	Clear cell renal cell carcinoma	t1	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	
+C3L-00917	0.0	0.0	Clear cell renal cell carcinoma	t1	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	
+C3L-01281	1.0	0.0	Clear cell renal cell carcinoma	t3	G4: Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped	Persistent Disease
+C3L-01283	0.0	0.0	Clear cell renal cell carcinoma	t1	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Unknown
+C3L-01286	1.0	1.0	Clear cell renal cell carcinoma	t3	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Patient Deceased
+C3L-01287	0.0	1.0	Clear cell renal cell carcinoma	t3	G4: Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped	Patient Deceased
+C3L-01288	0.0	0.0	Clear cell renal cell carcinoma	t1	G1: Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous	Complete Remission
+C3L-01302	0.0	1.0	Clear cell renal cell carcinoma	t3	G4: Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped	Patient Deceased
+C3L-01313	1.0	0.0	Clear cell renal cell carcinoma	t3	G4: Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped	Persistent Disease
+C3L-01352	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Unknown
+C3L-01553	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Unknown
+C3L-01557	0.0	0.0	Clear cell renal cell carcinoma	t3	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3L-01560	0.0	0.0	Clear cell renal cell carcinoma	t1	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3L-01603	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3L-01607	0.0	0.0	Clear cell renal cell carcinoma	t3	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3L-01836	0.0	0.0	Clear cell renal cell carcinoma	t1	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3L-01861	0.0	0.0	Clear cell renal cell carcinoma	t1	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3L-01882	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3L-01885	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-00148	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Unknown
+C3N-00149	0.0	0.0	Clear cell renal cell carcinoma	t4	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Unknown
+C3N-00150	0.0	0.0	Clear cell renal cell carcinoma	t3	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Unknown
+C3N-00154	0.0	0.0	Clear cell renal cell carcinoma	t2	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Unknown
+C3N-00168	0.0	0.0	Clear cell renal cell carcinoma	t1	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3N-00177	0.0	0.0	Clear cell renal cell carcinoma	t3	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-00194	1.0	0.0	Clear cell renal cell carcinoma	t2	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Persistent Disease
+C3N-00242	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	
+C3N-00244	1.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Unknown
+C3N-00246	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	
+C3N-00305	1.0	0.0	Clear cell renal cell carcinoma	t1	G1: Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous	Complete Remission
+C3N-00310	0.0	0.0	Clear cell renal cell carcinoma	t3	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-00312	1.0	0.0	Clear cell renal cell carcinoma	t3	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3N-00313	0.0	0.0	non-Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-00314	1.0	1.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Patient Deceased
+C3N-00315	0.0	0.0	Clear cell renal cell carcinoma	t1	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3N-00317	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	
+C3N-00320	0.0	0.0	Clear cell renal cell carcinoma	t3	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-00380	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-00390	0.0	0.0	Clear cell renal cell carcinoma	t3	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Persistent Disease
+C3N-00435	0.0	0.0	non-Clear cell renal cell carcinoma	t3	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3N-00437	0.0	0.0	Clear cell renal cell carcinoma	t3	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3N-00491	0.0	1.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Patient Deceased
+C3N-00492	0.0	0.0	non-Clear cell renal cell carcinoma	t2	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3N-00494	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-00495	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-00573	0.0	0.0	Clear cell renal cell carcinoma	t2	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Unknown
+C3N-00577	0.0	0.0	Clear cell renal cell carcinoma	t3	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3N-00646	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Unknown
+C3N-00733	0.0	0.0	Clear cell renal cell carcinoma	t3	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-00831	1.0	1.0	Clear cell renal cell carcinoma	t2	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Patient Deceased
+C3N-00832	0.0	0.0	non-Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-00834	0.0	0.0	Clear cell renal cell carcinoma	t1	G1: Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous	Complete Remission
+C3N-00852	0.0	0.0	Clear cell renal cell carcinoma	t3	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3N-00953	0.0	0.0	Clear cell renal cell carcinoma	t2	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3N-01175	0.0	0.0	non-Clear cell renal cell carcinoma	t3	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-01176	0.0	0.0	Clear cell renal cell carcinoma	t3	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Persistent Disease
+C3N-01178	0.0	0.0	Clear cell renal cell carcinoma	t3	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-01179	0.0	0.0	Clear cell renal cell carcinoma	t3	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-01180	0.0	0.0	non-Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-01200	0.0	1.0	Clear cell renal cell carcinoma	t4	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Patient Deceased
+C3N-01213	0.0	0.0	Clear cell renal cell carcinoma	t3	G1: Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous	Complete Remission
+C3N-01214	0.0	0.0	Clear cell renal cell carcinoma	t2	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-01220	0.0	1.0	Clear cell renal cell carcinoma	t3	G4: Nuclei bizarre and multilobulated, 20µm or greater; nucleoli prominent, chromatin clumped	Patient Deceased
+C3N-01261	0.0	0.0	Clear cell renal cell carcinoma	t1	G1: Nuclei round, uniform, approximately 10µm; nucleoli inconspicuous	Complete Remission
+C3N-01361	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-01522	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-01524	0.0	0.0	Clear cell renal cell carcinoma	t2	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3N-01646	0.0	0.0	Clear cell renal cell carcinoma	t3	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Complete Remission
+C3N-01648	0.0	0.0	Clear cell renal cell carcinoma	t2	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-01649	0.0	0.0	Clear cell renal cell carcinoma	t3	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission
+C3N-01651	1.0	0.0	Clear cell renal cell carcinoma	t2	G3: Nuclei very irregular, approximately 20µm; nucleoli large and prominent	Persistent Disease
+C3N-01808	0.0	0.0	Clear cell renal cell carcinoma	t1	G2: Nuclei slightly irregular, approximately 15µm; nucleoli evident	Complete Remission

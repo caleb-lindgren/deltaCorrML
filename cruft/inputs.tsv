@@ -1,0 +1,327 @@
+	cancer_type	tumor_normal_residuals_corr	prot_RNA_tumor_normal_ratios_corr	above_reg_line_ACSS1_Normal	above_reg_line_ACSS1_Tumor	above_reg_line_C1orf116_Normal	above_reg_line_C1orf116_Tumor	above_reg_line_CARD9_Normal	above_reg_line_CARD9_Tumor	above_reg_line_CDKN2A_Normal	above_reg_line_CDKN2A_Tumor	above_reg_line_CFI_Normal	above_reg_line_CFI_Tumor	above_reg_line_DYNC1LI1_Normal	above_reg_line_DYNC1LI1_Tumor	above_reg_line_ECH1_Normal	above_reg_line_ECH1_Tumor	above_reg_line_ECT2_Normal	above_reg_line_ECT2_Tumor	above_reg_line_FAM57A_Normal	above_reg_line_FAM57A_Tumor	above_reg_line_GPCPD1_Normal	above_reg_line_GPCPD1_Tumor	above_reg_line_HPS3_Normal	above_reg_line_HPS3_Tumor	above_reg_line_IFT43_Normal	above_reg_line_IFT43_Tumor	above_reg_line_IMPDH1_Normal	above_reg_line_IMPDH1_Tumor	above_reg_line_IMPDH2_Normal	above_reg_line_IMPDH2_Tumor	above_reg_line_MBNL2_Normal	above_reg_line_MBNL2_Tumor	above_reg_line_MFSD4A_Normal	above_reg_line_MFSD4A_Tumor	above_reg_line_NELL1_Normal	above_reg_line_NELL1_Tumor	above_reg_line_PPM1L_Normal	above_reg_line_PPM1L_Tumor	above_reg_line_RIPK3_Normal	above_reg_line_RIPK3_Tumor	above_reg_line_RNASET2_Normal	above_reg_line_RNASET2_Tumor	above_reg_line_SLC1A5_Normal	above_reg_line_SLC1A5_Tumor	above_reg_line_TALDO1_Normal	above_reg_line_TALDO1_Tumor	above_reg_line_THADA_Normal	above_reg_line_THADA_Tumor	above_reg_line_TXLNG_Normal	above_reg_line_TXLNG_Tumor	above_reg_line_USP7_Normal	above_reg_line_USP7_Tumor	tumor_normal_residual_diff_ACSS1	tumor_normal_residual_diff_C1orf116	tumor_normal_residual_diff_CARD9	tumor_normal_residual_diff_CDKN2A	tumor_normal_residual_diff_CFI	tumor_normal_residual_diff_DYNC1LI1	tumor_normal_residual_diff_ECH1	tumor_normal_residual_diff_ECT2	tumor_normal_residual_diff_FAM57A	tumor_normal_residual_diff_GPCPD1	tumor_normal_residual_diff_HPS3	tumor_normal_residual_diff_IFT43	tumor_normal_residual_diff_IMPDH1	tumor_normal_residual_diff_IMPDH2	tumor_normal_residual_diff_MBNL2	tumor_normal_residual_diff_MFSD4A	tumor_normal_residual_diff_NELL1	tumor_normal_residual_diff_PPM1L	tumor_normal_residual_diff_RIPK3	tumor_normal_residual_diff_RNASET2	tumor_normal_residual_diff_SLC1A5	tumor_normal_residual_diff_TALDO1	tumor_normal_residual_diff_THADA	tumor_normal_residual_diff_TXLNG	tumor_normal_residual_diff_USP7
+C3L-00004	ccrcc		0.005287448845855486																	True	True													True	True							True	False																										0.5105588178424498				-0.002234523249087794					
+C3L-00010	ccrcc		0.025092505705743878																	True	True													False	False							False	True																										0.12064777741580157				-0.3215740682804312					
+C3L-00011	ccrcc		0.059308655970149116																	True	True													True	True							True	True																										-0.1614456214928766				0.3448122320662589					
+C3L-00026	ccrcc		0.04896258166258764																	True	True													True	True							False	False																										0.48198854375498545				0.2012967495344698					
+C3L-00079	ccrcc		-0.14156401793472412																	True	True													False	False							False	False																										-0.9841028599166111				-0.7813350892626062					
+C3L-00088	ccrcc	0.2714285714285714	-0.0025093154698673814																	True	True													False	True							True	False																										-0.27520581854626697				0.05297313445713342					
+C3L-00096	ccrcc		0.009792312763777048																	True	True													False	True							True	True																										-0.017266686115218505				-0.21416792002803287					
+C3L-00097	ccrcc		0.0757569445381247																	True	True													False	False							False	False																										0.1210041323017731				0.0514542641070367					
+C3L-00103	ccrcc		0.08584245000564311																	True	False													True	True							True	False																			0.16297063564587377											-0.019131678416892103					
+C3L-00360	ccrcc	-0.4411764705882353	0.028530418312669757																	False	True													True	False							False	False																			1.1294445715286454							-0.2344311209016969				-0.372114031784192					
+C3L-00369	ccrcc		0.020967269730650218																	True	True													False	False							False	True																										0.5761488248136611				-0.0878505525422794					
+C3L-00416	ccrcc		-0.04125602435046181																	False	False													True	True							False	False																			0.010400930765786305											-0.3095347854218033					
+C3L-00418	ccrcc		0.06108710103758912																	True	True													False	True							True	False																										-0.4428799972716959				0.24409834094908922					
+C3L-00447	ccrcc		0.08801830538019566																	False	True													True	True							False	True																			0.19047873486828698											-0.2614448554252511					
+C3L-00448	ccrcc		0.06527694610468682																	True	True													True	True							False	True																														-0.1136792280850762					
+C3L-00561	ccrcc		0.03126706454906626																	True	True													True	True							False	False																										0.07653109364404492				-0.21847532415685778					
+C3L-00581	ccrcc		0.030664121185593213																	True	True													True	True							False	False																														0.098853486388905					
+C3L-00583	ccrcc	0.2357142857142857	0.10828835629826895																	True	True													True	False							False	True																										-0.3665637129806901				0.07806478692550045					
+C3L-00606	ccrcc		-0.07827924821137593																	True	True													True	False							False	False																										-0.3033119437185723				-0.10959599716405122					
+C3L-00607	ccrcc		-0.019298734655036898																	True	True													False	True							True	False																										0.3050743446028472				-0.09623449509295659					
+C3L-00814	ccrcc		0.07889852521281444																	True	True													False	True							True	False																										-0.6590916118454389				-0.0480252856422311					
+C3L-00902	ccrcc		0.010599791071853161																	True	True													True	False							True	True																										-0.44578878042369524				0.0385782939788025					
+C3L-00907	ccrcc		0.008974447557210257																	True	True													True	True							False	False																														-0.22970952070240339					
+C3L-00908	ccrcc		0.11436794340819839																	True	True													False	False							True	False																										-0.11473284834883501				0.2054260048363516					
+C3L-00910	ccrcc		0.06348876781135548																	True	True													True	False							False	True																										-0.21900635692799258				-0.06822431470894551					
+C3L-00917	ccrcc		0.049778135983587476																	False	True													True	False							False	False																			0.4215845463579098							0.034286768185428085				-0.6030335085969841					
+C3L-01281	ccrcc		-0.07296226738013312																	True	True													True	True							False	False																														-0.14411552639825512					
+C3L-01286	ccrcc		0.05606129615776794																	True	True													True	True							False	False																														0.0060105675325208					
+C3L-01287	ccrcc		0.15272878992396446																	True	True													True	False							False	False																										-0.4171612827761623				0.023055947254100595					
+C3L-01302	ccrcc	0.1323529411764706	0.11057863059005033																	False	False													False	True							True	True																			0.1068571404894923							-0.0437935549217876				0.1868587786046764					
+C3L-01313	ccrcc		0.1214382282883453																	True	True													True	True							False	True																														-0.1389712721125746					
+C3L-01603	ccrcc		0.05976117198076423																	True	True													True	False							True	False																										0.8472455901756545				0.0207100571147405					
+C3L-01607	ccrcc		-0.11252779654835417																	True	True													True	True							True	True																														-0.5038895630662247					
+C3L-01836	ccrcc		0.08477933707877192																	True	True													True	False							False	False																										-0.15627500608781875				0.35846288672770565					
+C3L-01861	ccrcc		-0.026307704798844693																	True	True													False	True							False	False																										0.7097145708947147				-0.2989413056827843					
+C3L-01882	ccrcc		0.004731908754199895																	True	True													False	True							False	False																										0.3872865348071391				-0.2037907847578728					
+C3L-01885	ccrcc		0.05002032839417645																	True	True													True	True							True	True																										0.374721811259877				0.0196407762310434					
+C3N-00148	ccrcc		0.10671039435628284																	False	False													True	True							True	False																			0.0043375914281701955											-0.07032025373748349					
+C3N-00149	ccrcc		-0.11628468459332854																	True	True													True	True							False	True																														0.1908038845346629					
+C3N-00150	ccrcc		0.07688369319055915																	True	True													False	True							False	False																										0.1306867231698381				0.0017540998027118088					
+C3N-00168	ccrcc		0.0446570219548187																	True	True													True	True							True	False																										-0.9554279739061387				-0.3465712846873195					
+C3N-00177	ccrcc		0.0556137059397356																	True	True													True	False							True	False																										0.07712811026403738				-0.1011196132722032					
+C3N-00194	ccrcc		0.055327057178558924																	True	True													False	True							True	False																										0.6275344562357701				0.014705964674071897					
+C3N-00242	ccrcc		0.04715592222776592																	True	True													False	False							True	True																										-0.3233132788028496				-0.046318225603194					
+C3N-00244	ccrcc	-0.07142857142857142	0.07188333914332949																	True	True													True	False							False	False																										0.1392581141646258				0.1225744624612676					
+C3N-00310	ccrcc		-0.012163959353295608																	True	True													False	False							True	False																										-0.04334139764823591				-0.0486779240896798					
+C3N-00314	ccrcc		0.11452539170403322																	True	True													False	True							True	True																										-0.6608348652660656				-0.16684828219102577					
+C3N-00390	ccrcc		0.08270539823473651																	True	True													False	True							False	True																										0.21782788658464863				-0.040895862579919104					
+C3N-00435	ccrcc		0.08817136754513133																	True	True													True	True							True	True																										0.40488664831092297				0.1767971195747352					
+C3N-00491	ccrcc		0.0024963818757567095																	True	True													False	False							False	True																										-1.4860877839347184				-0.3579190837841899					
+C3N-00494	ccrcc		-0.023249389280783128																	True	True													False	True							False	True																										-0.4141337705483771				-0.08209270591829979					
+C3N-00495	ccrcc		-0.0220688377516312																	True	True													True	True							True	False																														-0.5522226006344572					
+C3N-00573	ccrcc		0.03915601710746441																	True	True													True	True							True	False																														0.4562596385473088					
+C3N-00577	ccrcc		-0.07554255372292712																	True	True													True	True							False	True																										-0.14841858461507162				-0.2982500584593597					
+C3N-00646	ccrcc		0.1270710996414511																	True	True													False	False							True	True																										0.2735847298267261				-0.1260150919074164					
+C3N-00733	ccrcc		0.1228545327145319																	True	True													True	True							False	False																										0.6753666598131552				0.14998033468188768					
+C3N-00831	ccrcc		0.07994310871696202																	True	True													True	True							True	False																														0.1256466642638782					
+C3N-00834	ccrcc		0.07020127952042626																	True	False													True	False							True	False																			0.4096599978392587							-0.35665647609410245				-0.10033109548673147					
+C3N-00852	ccrcc		0.0788615227080802																	True	True													True	True							True	True																														-0.36343795520147637					
+C3N-01175	ccrcc		0.12365636661579034																	True	True													True	True							True	False																										1.1991123642790849				0.0384073148237477					
+C3N-01176	ccrcc		0.07747722774873865																	False	False													True	True							False	False																			0.1258094590455201											0.3352320097540683					
+C3N-01178	ccrcc	0.13214285714285715	0.027029325603633327																	True	True													True	True							True	False																										0.04067174876135482				0.2793303642945549					
+C3N-01179	ccrcc		0.07747383373025644																	True	True													False	False							True	True																										0.581043839423515				0.09193223020157948					
+C3N-01200	ccrcc		-0.1326734353476032																	True	True													False	False							True	True																										-0.5374334122897397				-0.5400101771813081					
+C3N-01214	ccrcc		0.03413770598639857																	True	True													False	True							False	True																			-0.19773603379075122							-0.4770441627879374				0.020935815318499695					
+C3N-01220	ccrcc		-0.031238744979284038																	True	True													False	True							False	True																										0.41599231256566427				0.0610229311917347					
+C3N-01261	ccrcc		0.0812611004040843																	True	False													True	False							True	False																			0.4311379523974869							-0.19583439268557745				-0.1372968098924012					
+C3N-01361	ccrcc	-0.07058823529411765	0.08513791358280741																	True	True													True	False							True	False																			-0.09646408467202582							0.694800466920352				0.09746124429445072					
+C3N-01522	ccrcc		0.09806743278175103																	True	True													True	True							True	True																										0.28572121888979574				0.018104798091686414					
+C3N-01524	ccrcc		-0.09873272040680336																	True	True													False	False							False	False																										-0.5726063217151105				0.2729314645907154					
+C3N-01646	ccrcc		0.11003110349741849																	True	True													True	True							True	False																														-0.23619920516215587					
+C3N-01648	ccrcc		0.04514562590727902																	True	True													True	True							True	True																										0.18627811122223809				0.10951507369602864					
+C3N-01649	ccrcc		0.08068636457561056																	False	False													True	True							False	True																			0.03079371844880402											0.38281137031410706					
+C3N-01651	ccrcc	0.13823529411764707	0.07149424325024611																	False	True													True	False							True	True																			-0.0166823533191547							0.477235637967664				0.5495756659773703					
+C3N-01808	ccrcc		-0.019362099389417887																	True	False													True	True							True	False																			-0.13001155364835548											-0.37959478919380757					
+C3L-00006	endometrial	0.15889951111465972	0.013307710901787308	False	True	True	False	True	False	True	False	True	False	False	False	False	True	False	False			False	False	True	False	False	False	False	False	False	False	False	False					True	True	False	False			True	True	True	False	True	True	False	False	False	True	0.4029914070233044	-0.404520110784304	-0.0438333190854176	0.12687093073468458	0.8003243573950213	-0.032776389788063603	0.20889653955343773	0.1227257173922511		0.2870030463097871	0.08562685721388759	-0.21262447493225103	0.11198188531182261	0.5351710054834847	0.1591224289271761				-0.2220905638797587		0.0218592906550511	0.1571828889433789	-0.029451840703880097	0.04869964646541161	-0.050430170378494
+C3L-00361	endometrial	0.1653836799020935	-0.036470242339193076	False	True	False	False	False	False	True	True	False	True	True	False	False	True	False	False			True	False	True	False	True	False	False	False	True	False	True	True					False	True	True	True			False	True	False	False	True	False	False	True	True	False	-0.027564908878190797	0.3597700480301936	0.12306515292453969	-0.2620204824416131	0.3404300550316045	0.27450841613540083	-0.01344952255069079	0.2579979408236625		0.054542351051578813	-0.004555131746359603	0.2592428284865383	0.2365743363153395	0.2133093043504383	0.028103597657209503			0.150175656504066	0.1232096660645632		0.05508242714855449	-0.05147795703162231	-0.0840021690077919	0.0409323213156155	0.0254470222683079
+C3L-00586	endometrial	0.2581870840634448	-0.05596794035424109	False	True	True	True	True	True	False	True	False	False	False	False	True	True	False	True			True	True	True	True	True	True	True	True	True	False	False	True					True	True	True	False			False	True	True	False	False	True	False	True	False	True	0.4642904602238321	-0.2261309794063584	0.12428315648479768	0.0736166494285824	0.49783086412550676	0.0350112137853003	0.1342211349515392	-0.044880738274637795		0.18610967038211318	0.0340116770491632		-0.2274672982284332	0.17274456199019042	-0.14033671337465647				-0.2989191896843055		0.2174789802198248	0.05776646823636358	-0.03387864153558459	-0.14379886160157448	-0.04142166030708799
+C3L-00601	endometrial	0.24848757221672432	-0.006033415787611302	False	False	False	False	True	True	False	True	True	True	True	False	False	False	True	False			False	True	True	True	True	True	False	False	False	False	False	True					True	True	True	False			False	True	True	False	False	True	True	True	True	True	0.0585828172855235	0.047280507597788124	0.2546099366470775	-0.23897319743323378	0.4273546618338476	0.035580497229000196	0.010808671157186	0.2235483798894245		0.3535568059919164	0.0749895911236141		-0.0220734404919464	0.20539959976887	0.0687754941349761				0.2218599424675774		0.3060023086064175	0.1577804008977649	0.0097337065259956	-0.013128568421414591	0.1029266716542136
+C3L-00932	endometrial	0.1417957594319941	-0.14035743313991855	True	False	False	False	True	True	True	True	False	True	True	False	True	False	True	False			True	False	False	True	False	True	True	False	True	False	False	False					True	False	True	False			False	True	True	True	False	False	False	False	True	True	0.1824745668245612	-0.028716591565190908	-0.20270975350099882	0.1693096073475325	0.7476937316608111	-0.0192181415838424	0.3055420322773228	-0.261749617028592		-0.1205938318167237	0.12294596156549319	0.002025005123576201	-0.028113040619367397	0.1771933058613664	0.22051258162520487			-0.2992277700855397	0.18527110799059207		-0.13355875082589788	0.08920874788060339	-0.017482253598089387	0.2743551002950111	0.09579414219212871
+C3L-01282	endometrial	0.17152306334675355	-0.12491702422412253	False	False	True	True	False	False	True	False	True	False	True	False	False	True	False	False			True	False	True	False	True	True	False	False	True	True	False	False					True	True	True	False			False	True	True	False	False	False	True	False	True	True	0.014838877167194314	-0.1156197696034785	0.049564099309313214	0.195760497582183	-0.10192077573775551	0.2035573551993896	-0.04014985789366599	0.061087876491873395		0.2052327736171042	0.0615519750497098	-0.060834697799791906	0.07143088113488799	-0.0426933723265471	0.0998971548905003			0.10134831724839641	0.3232274942861308		0.989552565458598	-0.15402067616770942	0.043399632869803896	-0.0767394272712048	0.0744317672523723
+C3L-01304	endometrial	0.21008821927949337	0.00865135156775554	False	True	False	True	False	True	True	True	True	True	False	False	True	True	False	False			False	False	False	False	False	True	True	True	False	False	False	True					True	True	False	False			True	True	True	False	True	False	False	True	True	True	-0.14210680223463967	0.1380484862062444	-0.21682461549106208	-0.07884061113328171	0.7851624840670639	0.0324028765466432	0.026778433409492403	0.1155433124729881		0.4143327000380676	0.171831557277554	0.056629045857420006	-0.0461210288330427	0.1177871663122454	0.2201112666135188			-0.014793259391087388	0.12660328674632848		0.3478367894409278	0.12464167062275078	0.043409800706349	0.0977191227926119	0.0643391641472418
+C3L-01307	endometrial	0.13302791420011212	-0.054607226386316134	False	True	False	False	False	False	False	False	False	True	True	True	False	True	False	True			False	False	False	True	True	False	True	False	True	True	False	True					True	True	False	False			True	True	False	False	False	True	True	True	False	True	-0.05966935024710719	0.037186514648678504	-0.21856485752181187	0.0804596460375776	0.3040621380931857	0.11873224065908092	0.1751260929202204	-0.14291437373303473		0.16058655358025978	-0.0952382889304378	-0.2017449556737374	0.36560808152126173	0.0443213640492718	0.26285207570075486			0.018690575635529588	-0.0001407987791627041		0.07051435148999759	0.019853795796505896	0.07288566773938532	0.226687551142233	0.0279247760210156
+C3L-01311	endometrial	0.16669440237104807	-0.011122373453758995	True	True	False	True	True	True	False	True	False	False	True	False	False	True	True	True			True	False	False	True	True	False	False	False	True	False	True	True					True	False	False	True			False	True	True	False	False	False	True	False	True	True	0.4401374802583762	-0.1949485124467574	0.09931201373923909	-0.4039228001967423	0.5763531754557106	0.082435003196544	0.5276219424033541	-0.270196826334045		0.236744379988382	0.1409630194150606	0.0503499430937879	-0.1657332595973139	0.2938195477891364	-0.04998655808086211			0.07449267557645131	-0.0796134862509439		0.011009787645180596	0.005904390899458406	0.2837338432259783	0.010543537383908709	0.01912411155711688
+C3N-00333	endometrial	0.1886157669112338	-0.02276803166068755	True	False	False	True	True	True	False	True	False	True	True	True	True	True	False	True			False	True	False	False	True	True	True	True	True	True	False	True					True	True	True	False			False	False	False	True	False	False	False	True	False	False	-0.1604925233166138	0.3324923108955281	0.117058831959056	0.2206567308877416	0.5131662496693861	0.1811532088460236	0.29831175002759247	0.6828631630856434		0.0809933184398678	-0.098144536715856	-0.0957552848500485	0.23767450526532818	0.3130605707150348	0.08547304608278211				0.0166164055108572		1.4802227986083012	0.24066019095990598	0.018146136029758106	0.032441739442055806	-0.0005739242705945918
+C3N-00383	endometrial	0.1603802241196009	0.04363602974728059	True	True	True	True	False	False	True	False	False	True	True	True	True	True	True	False			True	True	True	False	False	True	False	False	False	True	True	True					False	False	True	True			False	False	False	True	True	False	True	True	False	False	-0.02535287902334893	-0.23531971766951365	-0.0993843147151511	-0.59311422175854	0.385528958012175	0.26508120232507626	0.15900612921195856	-0.1994575601223037		-0.010039719688492404	-0.02860426618552149	0.29116943227269954	0.0190642682469087	0.22911331456494993	-0.1756409363258562			0.2273056774716781	0.023639214531557817		0.34827158034993566	0.06123837760169221	0.014040413333986798	0.052118159956753105	0.18743777511404838
+C3N-00858	endometrial	0.09084221334221335	-0.02752955635348203	True	True	False	True	True	False	True	True	True	False	False	True	False	False	True	True			True	True	False	True	True	True	True	False	True	True	True	False					False	True	False	False			True	True	False	False	True	True	True	False	True	True	0.38207717886389964	-0.0626378848848448	-0.3787699730762059	0.2097782913452474	-0.041645754439723015	-0.035196312795079704	-0.1933780859368792	0.06393816025569338		0.1712858596693766	-0.0352820715941859	0.2340994547147823	0.04962758807949991	0.0089948988151145	0.090285391312247			0.1026245089710139	0.12339447947199189		-0.40472473481087795	-0.1257268651171457	0.0718356482390019	0.044027853692062	-0.0172574686729729
+C3N-00866	endometrial	0.18562023700275307	-0.05417937299051569	True	True	False	True	True	False	False	False	True	True	True	False	False	True	False	True			False	False	False	True	False	True	False	False	False	True	True	True					False	True	True	True			True	True	False	True	True	True	True	True	True	True	0.1853095641296139	-0.0106907058577594	-0.1063464516830811	-0.10238542123701772	0.07702835444356027	-0.0183022949746025	0.5256492390981327	0.0791829049186496		-0.31835312818947303	0.038160852362876	0.1347187921933031	0.013579779819406002	-0.0861000214638884	-0.1822743921109174			0.358384145125654	-0.03494280750897899		-0.25062713329779146	0.1742284571961522	-0.06482647106171752	0.0925363351175722	0.09047931258404829
+C3N-01346	endometrial	0.26621034867499777	-0.11677837351191213	False	False	False	False	False	False	False	True	True	True	True	True	True	False	False	True			False	True	False	True	True	False	False	False	True	False	False	False					False	False	True	True			False	False	False	False	True	False	True	True	False	False	-0.06358852025291062	0.32023276657239114	-0.2075668730788838	0.4964959597538301	0.022230713051080403	0.23505112960670088	0.0989190281746602	-0.2242778379221227		-0.3167695893069667	0.1992059893253142	-0.0622263844381391	0.4063969887555901	-0.0114292848646067	0.0436980724930463			-0.055233200347506006	0.010741814547145012		-0.28691345889828096	0.03488884998034769	0.1588859257815056	0.04829457599206931	-0.0949830916230536
+C3L-00994	hnscc	-0.006795530051344005	0.737882742487362							True	True																																																																			
+C3L-00995	hnscc	0.16975023126734506	0.5923004073302404							True	True																																																																			
+C3L-00997	hnscc	0.037068357998590554	0.6757006417387409							False	False																																														0.0091459454770743																					
+C3L-00999	hnscc	0.38612395929694726	0.6342983589923541							False	False																																														0.16082303376919072																					
+C3L-01237	hnscc	0.07959183673469387	0.72847269149444							True	True																																																																			
+C3L-02617	hnscc	0.6219512195121951	0.6331160830089128							True	True																																																																			
+C3L-02621	hnscc	0.1653276955602537	0.6122677966087284							False	False																																														0.2452894730298928																					
+C3L-02651	hnscc	0.2644542090656799	0.7017697598331133							True	True																																																																			
+C3L-03378	hnscc	0.12753623188405797	0.7031863421633845							True	True																																														-0.02765123368378719																					
+C3N-00204	hnscc	0.2928118393234672	0.6612162454026128							True	True																																																																			
+C3N-00306	hnscc	0.20900030202355785	0.576035551051302							True	True																																																																			
+C3N-00307	hnscc	0.3793415886439142	0.6207342567218918							True	True																																																																			
+C3N-00498	hnscc	0.179855028692238	0.356122022309424							True	True																																																																			
+C3N-00519	hnscc	0.008710801393728223	0.4715947590918716							True	True																																																																			
+C3N-01337	hnscc	0.3732126696832579	0.7008843510916258							False	False																																														0.9541263331354255																					
+C3N-01338	hnscc	0.3318840579710145	0.6971340072350821							True	True																																																																			
+C3N-01340	hnscc	0.16339474479009364	0.7728635137473711							True	True																																																																			
+C3N-01645	hnscc	0.2310935441370224	0.6764167330711489							True	True																																																																			
+C3N-01754	hnscc	0.3770764119601329	0.7414530990403364							True	True																																																																			
+C3N-01756	hnscc	0.21396005210594876	0.7547009133217292							True	True																																																																			
+C3N-01943	hnscc	0.4524489795918367	0.6757421045347303							True	True																																														0.2540359404923884																					
+C3N-01944	hnscc	0.17233201581027668	0.670245849467814							True	False																																														0.4073955719287359																					
+C3N-01946	hnscc	0.18693877551020407	0.718891898372347							True	True																																																																			
+C3N-01947	hnscc	0.2018445322793149	0.7307418238643343							True	True																																																																			
+C3N-02279	hnscc	0.02374344742522356	0.6465735812828287							False	True																																														0.5970627152967051																					
+C3N-02713	hnscc	0.1048868778280543	0.6728410897834101							False	True																																														0.038185627264304606																					
+C3N-02714	hnscc	0.25599753314831947	0.7571130452698397							True	False																																														0.09045787637560769																					
+C3N-03027	hnscc	0.3979591836734694	0.6097905377830956							True	False																																														0.35352969513448673																					
+C3N-03028	hnscc	0.13399209486166008	0.74147983417354							False	False																																														0.33790900442284055																					
+C3N-03045	hnscc	0.08484848484848485	0.7270164581465757							True	True																																																																			
+C3N-03488	hnscc	0.0308300395256917	0.6762360155861676							False	True																																														-1.1449127981507026																					
+C3N-03490	hnscc	0.16546863988724453	0.6714911393333276							True	True																																																																			
+C3N-03619	hnscc	0.1276923076923077	0.6393667909200329							True	False																																														0.5764883601545518																					
+C3N-03620	hnscc	0.23739592969472711	0.6554224286375054							True	True																																																																			
+C3N-03837	hnscc	0.17591836734693878	0.7106220659713469							False	False																																														0.737968450823987																					
+C3N-03841	hnscc	-0.12806324110671938	0.6335234937601123							True	True																																														0.02694452567944461																					
+C3N-03849	hnscc	0.058632840028188866	0.6608268338343674							True	True																																														-0.15039096462754087																					
+C3N-03876	hnscc	0.12318840579710146	0.6918561928516124							True	False																																														-0.093584799034196																					
+C3N-03878	hnscc	0.15644820295983086	0.654125198444511							True	True																																																																			
+C3N-03888	hnscc	0.373149861239593	0.7879105590224136							False	False																																														0.717445299561388																					
+C3N-03928	hnscc	0.17668825161887142	0.6334531033431063							False	False																																														0.4299543999650519																					
+C3N-03933	hnscc	0.37341967314215235	0.6121598484971364							True	False																																														-0.012706750240804698																					
+C3L-00081	lscc	0.2451005396802726	0.07896377066115576															True	False	True	False																															False	False								-0.4187510617867377	0.4055190868150279																0.07933125345420898
+C3L-00415	lscc	0.30125687352710134	0.04543707861854825															False	False	True	True																															False	False								-0.8292996371214962																	-0.1413888303135349
+C3L-00445	lscc	0.24129991563554556	0.06967636824197974															False	True	True	False																															True	False								-0.12526931396099872	0.5753176833631329																0.0711451953063641
+C3L-00568	lscc	0.282068302508698	0.051597679766355056															False	False	True	True																															False	True								0.0667723110885915																	0.016010317256036605
+C3L-00603	lscc	0.25747281589801274	0.11675240465988314															True	True	True	False																															True	True								-0.6298727427873969	0.10917191511087743																0.42720839410430766
+C3L-00904	lscc	0.2447909981018449	-0.004706981974979164															True	False	True	False																															False	False								-0.2029480874447349	0.1798092682809826																0.04494674619705571
+C3L-00923	lscc	0.33228009441384737	0.05244766030076875															True	False	True	True																															False	True								0.026911317799522494																	-0.07807679476570512
+C3L-00927	lscc	0.2236190476190476	0.08446262800737296															True	False	True	True																															False	True								-0.1227586254415861	-0.5082741637158852																0.3846082287832818
+C3L-00993	lscc	0.13803001543104507	0.13449131394221264															False	False	True	True																															False	True								-0.014442915093295094																	-0.005990932298292992
+C3L-01000	lscc	0.3484814398200225	-0.01977193118718949															True	True	True	True																															True	True								0.8322822213685932																	0.22599277832971598
+C3L-01285	lscc	0.17449462365591398	-0.08038266644466582															False	False	True	True																															True	False								0.04307389144619808																	0.052544822051098006
+C3L-01455	lscc	0.20689360489958694	0.014516035082099922															True	False	True	True																															False	True								-0.2126763068155756																	0.182355451287531
+C3L-01606	lscc	0.2182637326584177	0.0682433412128442															False	False	True	True																															False	False								0.39718589782802444																	0.21698442594025028
+C3L-01663	lscc	0.3226391928682005	0.029842929091598473															True	False	True	True																															False	True								-0.2470111358212348																	-0.2160627228636867
+C3L-01884	lscc	0.20064232371567503	0.04424747181768171															True	False	True	True																															False	True								-0.5276801832451529																	0.1945626551563985
+C3L-02127	lscc	0.20762017773535746	0.07001377570856618															True	True	True	True																															True	False								-0.21916241613697263																	0.09630687930981029
+C3L-02130	lscc	0.33646578711985686	0.013472243330807054															False	True	True	True																															False	True								0.3777842817406797																	0.05564399851479569
+C3L-02163	lscc	0.2553723166368515	-0.009123252132775348															True	False	True	True																															False	True								-0.06748642235250998	0.055991454112336																-0.08011407159912941
+C3L-02164	lscc	0.25828030580479766	0.06888769180616383															True	True	True	True																															True	False								-0.4716126926113026																	-0.19956683243172169
+C3L-02168	lscc	0.2694015907756366	0.023965274994312075															False	True	True	True																															True	False								-0.08803212038948671																	-0.0734430841148847
+C3L-02349	lscc	0.21122505035707745	-0.006935803186259589															True	True	False	False																															False	True								-0.1528844737435372	0.4363800679854588																0.09701210186801967
+C3L-02358	lscc	0.1365024288688411	0.11407638806036624															True	True	True	True																															True	True								-0.3059278873013236																	0.2647526634888915
+C3L-02546	lscc	0.2892657450076805	0.08939597108031061															True	False	True	True																															False	True								-0.10613725061538298																	0.1786861541282866
+C3L-02552	lscc	0.3988509984639017	0.051894164389140324															True	True	True	True																															False	False								0.7738867806388847																	0.12755984134279452
+C3L-02619	lscc	0.08317060367454068	-0.021790638575776844															True	True	False	False																															False	True								0.0322225696633216	0.840859270593743																-0.0645916213005724
+C3L-02625	lscc	0.26950469588550985	0.13379763903726866															False	True	True	True																															True	True								0.004641653660210077																	-0.0066719998607771
+C3L-02627	lscc	0.4057750412012452	0.019605752817950226															False	False	True	True																															True	True								-0.3052011358311074																	-0.09480436779915419
+C3L-02629	lscc	0.2554010653802995	0.09566863750765683															False	True	True	True																															False	True								-0.5466190945641642																	0.0634466177996077
+C3L-02648	lscc	0.22680845017364956	0.0005107060864139256															False	True	True	True																															True	False								0.09885880020440099																	-0.1024955722433882
+C3L-02649	lscc	0.46374862662516025	0.08858038228022835															False	False	False	True																															True	False								-0.16318006380442437	1.061959292333827																-0.05587392886765631
+C3L-02650	lscc	0.21530635062611808	-0.024307342144016232															False	False	True	True																															True	True								-0.4338194856291391																	0.06370504128768009
+C3L-02660	lscc	0.2671950844854071	0.07235552746626095															False	True	True	True																															True	False								-0.2154821079721435																	-0.2090221022951494
+C3L-02665	lscc	0.13628356376447978	0.01820745811833956															False	True	True	True																															True	False								-0.8695739250174599																	-0.270200052958587
+C3L-02669	lscc	0.33397213473549353	0.07283807339967086															False	True	True	True																															True	False								-0.4248851581943341																	-0.20571156537880897
+C3L-02891	lscc	0.349262982752156	0.02957346804041353															False	True	True	True																															True	True								-0.8079424514805156	-0.3623738075154303																0.0008187688666163005
+C3L-02951	lscc	0.2399496459480724	0.03445235096269252															True	True	True	True																															False	False								-0.142629396063813																	-0.041691464298827995
+C3L-02963	lscc	0.39957667044476913	0.09371945271363313															True	True	False	True																															True	False								-0.5221656229004812	0.12307946752226051																-0.04258006978510191
+C3L-02964	lscc	0.29000674915635544	-0.046781566954459376															False	True	True	True																															True	False								0.26785763464996903																	0.0512443059373813
+C3L-02968	lscc	0.11347881514810648	0.09015931020607024															True	True	False	False																															False	False								-0.30303689655371036	0.8267799298877968																0.009883751931946898
+C3L-02969	lscc	0.23284178187403995	0.1355686721296237															True	False	True	True																															True	False								0.0028289532561480007																	0.06539397807121161
+C3L-03272	lscc	0.2962365878396413	0.12281169937506993															False	False	True	True																															True	False								0.18037475675036152																	0.036066563812387195
+C3L-03961	lscc	0.3292964669738863	0.18771156808685757															False	False	True	True																															True	False								-0.174941051418599																	-0.021413339395189794
+C3L-03962	lscc	0.09264660610582667	0.013163787185536525															True	False	True	True																															False	True								-0.0202500129319379																	0.06257344153824021
+C3L-03963	lscc	0.4311856082848449	0.10824609245153449															False	True	True	True																															True	True								0.08735346277092451																	-0.1870057137741986
+C3L-03965	lscc	0.4237033052554477	-0.08240181072502487															False	True	False	True																															True	True								-0.6970478443687971	0.4505935660849103																-0.13164756615145778
+C3L-04013	lscc	0.3187033831628639	-0.09327623421190077															False	False	True	True																															True	True								-0.15092640670739632																	-0.20432933973110862
+C3L-04014	lscc	0.33812570303712036	0.024822407145207687															True	True	False	False																															True	False								0.11031009665755599	0.03518887927562142																0.5444966042168454
+C3L-04071	lscc	0.3680871157769511	0.03791039636157578															True	True	True	True																															False	True								-0.041693495950185795																	0.018451085481586
+C3L-04391	lscc	0.2748384517160878	0.032653057240988576															False	False	False	True																															True	False								0.329528879296894	0.6651411494292122																-0.046726792724703405
+C3N-00221	lscc	0.18104315742397137	0.04994963484231888															True	True	True	True																															False	False								-0.6465074057716967																	0.2924731758109369
+C3N-00497	lscc	0.328654602675059	0.09297550411801137															False	True	True	True																															False	True								0.15483803428203957																	-0.08702591856970279
+C3N-00555	lscc	0.253660519263369	0.12941112987964057															True	False	True	True																															False	True								0.25716152127632086																	-0.0668825289840128
+C3N-01017	lscc	0.21754011895410166	-0.00377009218154089															False	False	True	False																															True	False								0.0526042839120936	-0.7335976005365016																-0.1038492720466522
+C3N-01020	lscc	0.2339260424862313	0.04159117485932998															True	True	True	True																															False	True								0.3320167490066348																	0.025347815993062406
+C3N-01025	lscc	0.4085639295088114	0.03470243158201709															True	False	True	True																															False	False								-0.415712031540194																	0.2767463951935068
+C3N-01028	lscc	0.3089950702590504	0.12415363555567074															True	True	True	True																															True	False								-0.8888303059130845																	0.3518954392977135
+C3N-01194	lscc	0.09024270353302612	0.07982042239369952															True	False	True	True																															False	False								0.1256922232368818																	0.062328931718463605
+C3N-01411	lscc	0.3384971797989074	0.09902998598550605															True	False	True	True																															True	True								-0.0043807769100766																	0.1279515444196504
+C3N-01846	lscc	0.22555818050226004	0.07086669521195336															False	False	True	True																															False	True								-0.14502693824396168																	-0.0166410164568717
+C3N-01892	lscc	0.4364642464750046	0.08179269334806609															True	True	True	False																															True	True								-0.009566097091927697	-0.2580836423239029																0.08017604171981399
+C3N-01893	lscc	0.17434018128285875	-0.0025689143798038956															True	True	True	True																															False	True								-0.12864414401718077																	0.0637924673974801
+C3N-02252	lscc	0.19165362254025045	0.04956770890148818															False	True	True	True																															False	True								0.619455074686812																	0.0942210069010992
+C3N-02285	lscc	0.26006897883153407	0.018856056645042932															True	True	False	False																															False	True								0.0157671855438797	0.029075592508057302																-0.0520852995202624
+C3N-02288	lscc	0.15830414746543778	-0.026290054389400366															False	True	True	True																															False	True								0.8347078513443913																	0.008672430727108202
+C3N-02289	lscc	0.3095926973789569	0.07353096439087921															False	True	True	True																															False	False								0.5798782593866701																	-0.0715858212197003
+C3N-02339	lscc	0.21511064995489407	0.04483596974626719															True	True	True	True																															True	False								0.23505985078278463																	0.15884160374515052
+C3N-02374	lscc	0.23844476744186047	-0.007390874572271939															True	True	True	True																															True	False								0.12569138050344997																	0.1322907489273265
+C3N-02375	lscc	0.2719370574350905	0.14769779172928588															True	False	True	True																															False	False								-0.057481937620800394																	0.06935885114342019
+C3N-02425	lscc	0.33551783692402415	0.13203219759362464															True	True	True	True																															False	False								0.2113243764145537																	0.001990128420173598
+C3N-02426	lscc	0.20732809924922174	0.09434015749495875															True	True	True	True																															False	True								-0.47163079031506433																	0.2898972406299651
+C3N-02434	lscc	0.12582123758594346	0.05462390004934276															False	False	True	True																															True	True								0.29820639366888463																	-0.0657252674279559
+C3N-02435	lscc	0.28987364951474087	0.07218720836733239															True	True	True	True																															True	True								0.3805463121021592																	-0.0394411634144127
+C3N-02494	lscc	0.2907410011248594	0.09217165204560146															False	False	False	True																															False	True								-0.1622722316359548	0.3448719909248083																0.0169519824678213
+C3N-02523	lscc	0.16164049624610877	0.09945012263086883															True	False	True	True																															True	False								0.1345640565982815																	-0.0927447280223197
+C3N-02575	lscc	0.2201587656529517	0.11798108842774258															True	True	True	True																															False	False								-0.060917281183880304																	-0.045455335189975694
+C3N-02675	lscc	-0.034516285853184246	0.06670214138398878															False	False	True	True																															False	True								-0.11359732142131052																	0.04616207217919571
+C3N-03051	lscc	0.23301523999430282	0.08733347449071376															False	False	True	True																															False	False								-0.0033342384877975695																	-0.06850604822967571
+C3N-03076	lscc	0.4026293588301462	0.119036370899921															False	False	False	True																															False	True								-0.05653269778289738	0.5246594795063506																-0.022358772178582398
+C3N-03092	lscc	0.2674704724409449	0.10778602916356957															False	False	False	True																															True	True								-0.39953269309233364	0.3486190450717112																-0.0254255375962458
+C3N-03093	lscc	0.28125960061443933	0.06918029193907253															False	True	True	True																															False	False								-0.731044696580201																	0.2495283826372889
+C3N-03204	lscc	0.35871406335835926	0.033309552980959015															False	False	False	False																															False	True								-0.1138740335389283	0.061684332509034705																0.16610686122961368
+C3N-03424	lscc	0.49340957549912773	0.01725152112622894															False	False	True	True																															True	True								-0.0331970061850721	0.05963865647065464																-0.06921384804879299
+C3N-03425	lscc	0.199246200275847	0.11410688459441518															False	False	False	True																															False	False								-0.027222078205486805	-0.23006167033444658																0.23844139363438788
+C3N-03441	lscc	0.17333134956967589	0.004775311079669611															False	False	True	True																															True	False								0.13535737612422916																	0.07281595662451479
+C3N-03486	lscc	0.3054068695102604	0.11303857799410817															False	True	True	True																															True	True								-0.1456147120323083																	0.07631179406359
+C3N-03848	lscc	0.3931551459293395	0.060858754034219															True	False	False	False																															True	False								-0.33008904584554377	-0.2716580043066683																0.05473802440064279
+C3N-03851	lscc	0.38402699662542183	-0.06349246399178496															False	False	False	True																															False	True								-0.2731362393429969	0.490883973303129																0.2176997097909161
+C3N-03875	lscc	0.26265093917710197	0.11175255907884421															True	False	False	False																															False	False								-0.046552239400599105	-0.49870285494625816																0.0855198845867911
+C3N-03877	lscc	0.26731596777147043	0.09372518193097705															False	False	True	True																															False	True								0.5964499399737472																	-0.003766250549168307
+C3N-03880	lscc	0.25335332356711227	0.1071096314812142															False	False	True	False																															False	False								0.0417772739486299	-0.19651179643905842																0.08829202145467571
+C3N-03882	lscc	0.16180399325084363	0.08565005265403773															True	False	True	True																															True	False								-0.20937914385969103																	0.0364259361413351
+C3N-04124	lscc	0.33540921288014314	0.11706272169531745															True	False	False	True																															False	False								0.4354863387846902	0.5760184876529939																0.06721084535068649
+C3N-04127	lscc	0.3738863287250384	0.1246752179474825															True	False	True	True																															False	False								0.05875522116662413																	0.07046915233920201
+C3N-04162	lscc	0.11739548181477315	0.0804480456875562															False	True	False	False																															True	True								-0.15624872992468108	0.41958961695828817																-0.0209155541931134
+C3L-00001	luad	0.26391334188773835	0.058655699774819874																																	True	False																																	0.288622810453657								
+C3L-00009	luad	0.3432503702633385	-0.07305003302454033																																	True	True																																									
+C3L-00080	luad	0.14744634967389017	0.026137490305889674																																	True	True																																									
+C3L-00083	luad	0.25291188212536525	0.021078889231132377																																	True	True																																									
+C3L-00093	luad	0.09672799111001358	0.05268083013365401																																	True	True																																									
+C3L-00094	luad	0.05480290054012115	-0.022242260284973996																																	False	True																																	1.1634923277487017								
+C3L-00095	luad	0.4136964484790572	0.012601937324314612																																	True	True																																									
+C3L-00140	luad	0.12863490228660188	0.0842794414054828																																	True	True																																									
+C3L-00144	luad	0.2626749425561756	0.023411765493218304																																	True	False																																	-0.19794380377316423								
+C3L-00263	luad	0.28302277432712214	-0.013776945916803238																																	True	True																																									
+C3L-00279	luad	-0.16695444857855002	0.03210951655715529																																	True	True																																									
+C3L-00368	luad	0.10026558443496165	0.07999816272092311																																	True	True																																									
+C3L-00412	luad	0.2585751327324361	0.10085092186654464																																	True	True																																									
+C3L-00422	luad	0.31000535045478866	-0.048960030604881584																																	True	True																																									
+C3L-00510	luad	0.11707618224472158	0.0713622633553581																																	True	True																																									
+C3L-00604	luad	-0.11314211734969098	0.06908170934329257																																	True	True																																	-1.8890490357949439								
+C3L-00893	luad	0.30052269827550726	-0.009684529385102673																																	False	True																																	1.8703775268846465								
+C3L-00913	luad	0.2180269169033214	0.033651400483137923																																	True	True																																									
+C3L-00973	luad	0.15927695492912886	0.07936765410418484																																	True	True																																									
+C3L-01330	luad	0.08343733043950081	0.018426532204554345																																	False	True																																	-1.2879869727611717								
+C3L-01632	luad	0.11682530795072789	0.025421424215269897																																	True	False																																	0.9927953718778056								
+C3L-01682	luad	0.250370263338511	-0.0136607645470868																																	True	True																																									
+C3L-01683	luad	0.08336370926587446	0.09580421537042184																																	True	False																																	-1.0437924789133994								
+C3L-01889	luad	0.20893937523151007	0.01697920334568913																																	True	True																																									
+C3L-01890	luad	0.13858136134403629	0.061199718637133374																																	True	True																																									
+C3L-01924	luad	0.2667675147627032	0.07044695727809977																																	True	True																																	-0.847585868147618								
+C3L-02219	luad	0.23967757205975174	0.0033075293790222554																																	True	True																																									
+C3L-02345	luad	0.32869078487056014	0.04347792290791226																																	True	True																																									
+C3L-02348	luad	0.33226628444019746	0.0698144296394017																																	True	True																																									
+C3L-02350	luad	0.13742437337942956	0.09001239583854725																																	True	True																																									
+C3L-02365	luad	-0.038923395445134575	0.04788858279779497																																	True	True																																									
+C3L-02508	luad	0.2563146997929607	-0.030261572991952652																																	True	True																																									
+C3L-02549	luad	0.24849498327759198	0.003984842591607244																																	True	True																																									
+C3N-00167	luad	0.17306257646742862	0.02694808218854837																																	False	True																																	0.6857682108634922								
+C3N-00169	luad	0.06760505412190805	-0.029410058093986415																																	True	True																																									
+C3N-00175	luad	0.31108456760630676	0.04739051900734621																																	True	True																																									
+C3N-00180	luad	0.16635545970965707	0.06074176940171666																																	True	True																																									
+C3N-00199	luad	0.2560146725644622	-0.023127728420137966																																	True	False																																	1.697840848617425								
+C3N-00203	luad	0.18185024416711884	0.03813584981310156																																	False	True																																	0.8133516466535196								
+C3N-00217	luad	0.061170212765957445	0.10457894675321948																																	False	False																																	0.5377790748576174								
+C3N-00223	luad	0.46213183730715285	0.08412022729445776																																	False	True																																	1.2654020615564003								
+C3N-00293	luad	0.2814026390610192	0.055680854709653525																																	True	False																																	0.8202160241213563								
+C3N-00433	luad	0.1341583436611504	0.0809077833479191																																	False	False																																	2.5659746191794643								
+C3N-00546	luad	0.15261758118701008	0.09093498824818745																																	True	True																																									
+C3N-00547	luad	-0.03362723819858926	0.0128370068628383																																	True	True																																									
+C3N-00549	luad	-0.021130180680742478	-0.04524316429232714																																	True	True																																									
+C3N-00550	luad	0.1931306138282952	0.052416800085783664																																	False	True																																	2.32257435918654								
+C3N-00551	luad	0.2871218668971478	-0.017771970362074507																																	True	True																																									
+C3N-00552	luad	0.24219450961023994	0.037988420613141456																																	True	True																																									
+C3N-00556	luad	-0.023290830168204015	0.06893629951916																																	True	True																																									
+C3N-00559	luad	0.2689759515846472	0.044444026112914994																																	True	True																																									
+C3N-00560	luad	0.03629558846950151	-0.0422859761854224																																	True	True																																									
+C3N-00572	luad	0.24630488725860394	-0.03129219820201574																																	True	True																																									
+C3N-00574	luad	0.2987541993281075	0.038803295817995825																																	True	True																																	0.9763457950980324								
+C3N-00578	luad	0.17453416149068324	-0.011024072136550302																																	True	True																																									
+C3N-00579	luad	0.2476457623722701	0.05215384118400759																																	False	False																																	1.5756802806573635								
+C3N-00580	luad	0.09745331069609507	0.01663098974438923																																	True	True																																									
+C3N-00704	luad	0.21155724362452524	0.05560777706740017																																	True	True																																									
+C3N-00737	luad	0.03711569329546858	-0.031611130672734515																																	True	True																																									
+C3N-00738	luad	0.15714697287730994	-0.00524942881836029																																	True	True																																									
+C3N-00959	luad	-0.08947284599458513	0.051117513784382555																																	True	True																																									
+C3N-01016	luad	0.14054112632301413	0.05827958813159886																																	True	True																																									
+C3N-01021	luad	0.11317145957677699	-0.010061853637259888																																	False	False																																	1.1559482078065488								
+C3N-01023	luad	0.0689500813890396	0.07338111393195347																																	True	True																																									
+C3N-01024	luad	-0.0024721228697664635	0.029199685820741426																																	True	True																																									
+C3N-01030	luad	0.2589867061777174	0.05717386231677411																																	True	True																																									
+C3N-01071	luad	0.13250872847721643	-0.01798243575572223																																	False	True																																	2.005508762545153								
+C3N-01072	luad	0.21715257676583807	0.05273311056538585																																	True	True																																	0.13372525092583382								
+C3N-01405	luad	0.13810010214504598	-0.013730718101558313																																	True	True																																									
+C3N-01410	luad	0.04594680681637203	0.07635256099871754																																	True	True																																									
+C3N-01413	luad	0.05840227188541795	-0.06884316924216259																																	False	False																																	-0.5885419410853691								
+C3N-01414	luad	0.16748907271610736	0.03170303366692584																																	True	True																																									
+C3N-01415	luad	0.24645841050335432	0.015224427214719982																																	True	True																																									
+C3N-01416	luad	0.18328667413213887	0.023941235280141075																																	True	True																																									
+C3N-01488	luad	0.18943079392517595	0.05588886368956807																																	False	False																																	0.46197536479296564								
+C3N-01489	luad	0.17372515125324114	-0.008105156843750506																																	True	True																																									
+C3N-01799	luad	0.2479848342400937	0.105441113341202																																	True	True																																									
+C3N-01823	luad	0.2591813983118331	-0.0258079625394002																																	True	True																																									
+C3N-02000	luad	0.21806264896152536	0.02238731683032143																																	True	True																																									
+C3N-02002	luad	0.13993561030235163	0.02640612211591672																																	False	True																																	0.9224020953656944								
+C3N-02003	luad	0.14972218792443512	0.000975413894484313																																	True	True																																									
+C3N-02067	luad	0.3574251345591157	-0.032805958234240644																																	True	True																																									
+C3N-02087	luad	0.36212206047032475	-0.011510328582401133																																	True	True																																									
+C3N-02089	luad	0.08322074919625763	0.016281963337582882																																	True	True																																									
+C3N-02145	luad	0.2696825827455236	0.02690165637259309																																	True	True																																									
+C3N-02149	luad	0.24824621608929667	0.04481415980333545																																	True	True																																									
+C3N-02155	luad	0.10744709712425393	-0.02688189632123253																																	False	True																																	0.7718828436923592								
+C3N-02158	luad	0.125460235640648	0.04294625146482961																																	True	True																																									
+C3N-02379	luad	-0.14530132788559755	0.05425449582832849																																	True	True																																									
+C3N-02380	luad	0.22716435411373853	0.0695060261720895																																	True	True																																	0.9164637649359051								
+C3N-02421	luad	0.31962832338578406	0.04069802669838661																																	True	True																																									
+C3N-02423	luad	0.1873414699650861	0.05247434179131419																																	True	True																																									
+C3N-02424	luad	0.2694433406783947	-0.0033271715403644917																																	True	True																																									
+C3N-02433	luad	0.1111824505082932	0.06554274477107795																																	True	True																																									
+C3N-02529	luad	0.13386554925405483	0.04232624118995382																																	True	True																																									
+C3N-02572	luad	0.3905558209906036	0.016489975105646267																																	True	True																																									
+C3N-02582	luad	0.22665413128246228	0.09156618167481438																																	True	False																																	1.6279204200526038								
+C3N-02586	luad	0.06671188279978296	0.01617991007358498																																	True	True																																									
+C3N-02587	luad	0.22253776186360455	0.03668729632573284																																	False	True																																	-0.7654155834274312								
+C3N-02588	luad	0.2571428571428571	0.02585062529274159																																	True	True																																									
+C3N-02729	luad	0.1578548792031938	-0.021569880606834763																																	True	True																																									

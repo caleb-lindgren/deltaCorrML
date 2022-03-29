@@ -1,0 +1,104 @@
+0	Recurrence status (1, yes; 0, no)	Survial status (1, dead; 0, alive)	histologic_type	pathologic_staging_primary_tumor	histologic_grade	measure_of_success_of_outcome_at_last_available_follow-up
+C3L-00006	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-00008	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-00032	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3L-00084	0.0	0.0	Endometrioid carcinoma	t1	G3 Poorly differentiated	Unknown
+C3L-00090	1.0	1.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Patient Deceased
+C3L-00098	0.0	0.0	Endometrioid carcinoma	t1	G3 Poorly differentiated	Complete Remission
+C3L-00136	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-00137	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-00139	0.0	1.0	Serous carcinoma	t3	Other: grading not applicable	Patient Deceased
+C3L-00143	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-00145	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-00156	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-00157	1.0	0.0	Serous carcinoma	t3	G3 Poorly differentiated	Persistent Disease
+C3L-00161	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3L-00356	1.0	1.0	Serous carcinoma	t1	G3 Poorly differentiated	Patient Deceased
+C3L-00358	0.0	0.0	Serous carcinoma	t1	G3 Poorly differentiated	Persistent Disease
+C3L-00361	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-00362	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-00413	0.0	0.0	Endometrioid carcinoma	t2	G2 Moderately differentiated	Complete Remission
+C3L-00449	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3L-00563	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-00586	0.0	0.0	Endometrioid carcinoma	t2	G1 Well differentiated	
+C3L-00601	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	
+C3L-00605	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	
+C3L-00767	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3L-00769	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3L-00770	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3L-00771	0.0	1.0	Endometrioid carcinoma	t3	G2 Moderately differentiated	Patient Deceased
+C3L-00780	1.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3L-00781	1.0	0.0	Endometrioid carcinoma	t2	G3 Poorly differentiated	Complete Remission
+C3L-00905	0.0	0.0	Endometrioid carcinoma	t2	G3 Poorly differentiated	
+C3L-00918	1.0	1.0	Endometrioid carcinoma	t1	G1 Well differentiated	Patient Deceased
+C3L-00921	0.0	0.0	Endometrioid carcinoma	t2	Other: FIGO grade 2	Complete Remission
+C3L-00932	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3L-00938	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3L-00942	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-00946	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-00947	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3L-00949	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-00961	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-00963	0.0	0.0	Endometrioid carcinoma	t1	G3 Poorly differentiated	Complete Remission
+C3L-01246	0.0	0.0	Clear cell carcinoma	t1	G3 Poorly differentiated	Complete Remission
+C3L-01247	0.0	0.0	Serous carcinoma	t1	G3 Poorly differentiated	Complete Remission
+C3L-01248	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-01249	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3L-01252	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-01253	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3L-01256	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-01257	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Unknown
+C3L-01275	1.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Unknown
+C3L-01282	0.0	0.0	Endometrioid carcinoma	t1	G3 Poorly differentiated	Complete Remission
+C3L-01284	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Not Applicable
+C3L-01304	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-01307	0.0	1.0	Endometrioid carcinoma	t1	G3 Poorly differentiated	Patient Deceased
+C3L-01311	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3L-01312	0.0	0.0	Endometrioid carcinoma	t1	Other: FIGO grad 1 Well differentiated	Complete Remission
+C3L-01744	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3L-01925	0.0	0.0	Serous carcinoma	t3	G3 Poorly differentiated	Complete Remission
+C3N-00151	0.0	0.0	Endometrioid carcinoma	t1	G3 Poorly differentiated	Unknown
+C3N-00200	1.0	1.0	Mixed cell adenocarcinoma	t2	G3 Poorly differentiated	Patient Deceased
+C3N-00321	0.0	0.0	Serous carcinoma	t1	G1 Well differentiated	Complete Remission
+C3N-00322	0.0	0.0	Serous carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3N-00323	0.0	0.0	Serous carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3N-00324	0.0	0.0	Endometrioid carcinoma	t2	G2 Moderately differentiated	Complete Remission
+C3N-00326	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3N-00328	0.0	0.0	Endometrioid carcinoma	t1	G3 Poorly differentiated	Complete Remission
+C3N-00333	0.0	0.0	Serous carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3N-00334	0.0	0.0	Serous carcinoma	t1	G1 Well differentiated	Complete Remission
+C3N-00335	0.0	0.0	Serous carcinoma	t1	G3 Poorly differentiated	Complete Remission
+C3N-00337	0.0	0.0	Serous carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3N-00339	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3N-00340	0.0	0.0	Serous carcinoma	t3	G3 Poorly differentiated	Complete Remission
+C3N-00377	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3N-00379	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3N-00383	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3N-00386	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3N-00388	0.0	0.0	Serous carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3N-00389	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3N-00729	1.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Persistent Disease
+C3N-00734	0.0	0.0	Endometrioid carcinoma	t3	G1 Well differentiated	Complete Remission
+C3N-00743	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3N-00836	0.0	0.0	Serous carcinoma	t1	G3 Poorly differentiated	Complete Remission
+C3N-00847	0.0	0.0	Endometrioid carcinoma	t3	G2 Moderately differentiated	Complete Remission
+C3N-00848	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3N-00850	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3N-00858	0.0	0.0	Endometrioid carcinoma	t3	G2 Moderately differentiated	Complete Remission
+C3N-00866	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Complete Remission
+C3N-00880	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3N-01001	0.0	0.0	Endometrioid carcinoma	t2	G2 Moderately differentiated	Persistent Disease
+C3N-01003	1.0	1.0	Endometrioid carcinoma		G3 Poorly differentiated	Patient Deceased
+C3N-01211	1.0	0.0	Endometrioid carcinoma	t2	G2 Moderately differentiated	Persistent Disease
+C3N-01212	0.0	0.0	Endometrioid carcinoma	t3	G2 Moderately differentiated	Complete Remission
+C3N-01217	0.0	0.0	Endometrioid carcinoma	t1	G1 Well differentiated	Persistent Disease
+C3N-01219	1.0	0.0	Endometrioid carcinoma	t3	G3 Poorly differentiated	Persistent Disease
+C3N-01267	0.0	0.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Complete Remission
+C3N-01346	0.0	0.0	Serous carcinoma	t1	G3 Poorly differentiated	Complete Remission
+C3N-01349	1.0	1.0	Serous carcinoma	t1	G3 Poorly differentiated	Patient Deceased
+C3N-01510	0.0	0.0	Endometrioid carcinoma	t2	G2 Moderately differentiated	Unknown
+C3N-01520	0.0	1.0	Endometrioid carcinoma	t1	G2 Moderately differentiated	Patient Deceased
+C3N-01521	0.0	0.0	Endometrioid carcinoma	t1	G3 Poorly differentiated	Persistent Disease
+C3N-01537	1.0	0.0	Serous carcinoma	t2	G3 Poorly differentiated	Complete Remission
+C3N-01802	1.0	0.0	Serous carcinoma	t2	G3 Poorly differentiated	Persistent Disease
+C3N-01825	0.0	0.0	Serous carcinoma	t1	G3 Poorly differentiated	Complete Remission

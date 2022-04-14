@@ -1,8 +1,4 @@
 0	recurrence_status	survival_status	histologic_type	tumor_stage	histologic_grade	success_last_follow-up
-11LU013	0.0	0.0	not specified	t3	gx	complete remission
-11LU016	0.0	1.0	not specified	t1	gx	patient deceased
-11LU022	0.0	0.0	not specified	t2	gx	unknown
-11LU035	0.0	0.0	not specified	t1	gx	unknown
 C3L-00001	0.0	0.0	adenocarcinoma	t2	g3	complete remission
 C3L-00009	0.0	1.0	adenocarcinoma	t1	g2	patient deceased
 C3L-00080	1.0	0.0	adenocarcinoma	t2	g2	persistent disease
@@ -26,9 +22,7 @@ C3L-01330	0.0	0.0	acinar adenocarcinoma	t1	g2	complete remission
 C3L-01632	1.0	1.0	adenocarcinoma, micropapillary and acinar	t2	g3	patient deceased
 C3L-01682	0.0	0.0	acinar adenocarcinoma	t2	g2	complete remission
 C3L-01683	1.0	1.0	adenocarcinoma	t2	g3	patient deceased
-C3L-01862	0.0	1.0	adenocarcinoma	t1	g2	patient deceased
 C3L-01889	0.0	0.0	adenocarcinoma	t2	g2	complete remission
-C3L-01890	0.0	0.0	lepidic adenocarcinoma	t1	g1	complete remission
 C3L-01924	0.0	0.0	adenocarcinoma	t1	g2	complete remission
 C3L-02219	1.0	1.0	acinar adenocarcinoma	t2	g2	patient deceased
 C3L-02345	1.0	0.0	adenocarcinoma	t2	g2	persistent disease
@@ -46,7 +40,6 @@ C3N-00203	0.0	0.0	squamous cell carcinoma	t3	g3	complete remission
 C3N-00217	0.0	0.0	acinar adenocarcinoma	t2	g2	complete remission
 C3N-00223	0.0	0.0	adenocarcinoma	t2	g2	unknown
 C3N-00293	0.0	0.0	adenocarcinoma	t2	gx	complete remission
-C3N-00294	1.0	0.0	adenocarcinoma	t2	gx	persistent disease
 C3N-00433	0.0	0.0	adenocarcinoma	t2	g3	complete remission
 C3N-00545	0.0	0.0	acinar adenocarcinoma	t1	g2	complete remission
 C3N-00546	0.0	0.0	solid adenocarcinoma	t2	g3	not applicable
@@ -74,7 +67,6 @@ C3N-01024	1.0	0.0	adenocarcinoma	t3	g3	persistent disease
 C3N-01030	0.0	0.0	squamous versus adenocarcinoma pending ihc	t2	g3	not applicable
 C3N-01071	0.0	0.0	acinar adenocarcinoma	t2	g2	unknown
 C3N-01072	0.0	0.0	acinar adenocarcinoma	t2	g3	complete remission
-C3N-01074	0.0	1.0	solid adenocarcinoma	t2	g3	patient deceased
 C3N-01405	0.0	0.0	solid adenocarcinoma	t2	g3	unknown
 C3N-01410	0.0	0.0	solid adenocarcinoma	t3	g3	not applicable
 C3N-01413	0.0	0.0	adenocarcinoma	t2	g3	complete remission
@@ -85,7 +77,6 @@ C3N-01488	0.0	0.0	adenocarcinoma	t2	g3	not applicable
 C3N-01489	0.0	0.0	adenocarcinoma	t2	g3	not applicable
 C3N-01799	0.0	0.0	adenocarcinoma	t2	g2	complete remission
 C3N-01823	1.0	1.0	adenocarcinoma	t2	g2	patient deceased
-C3N-01842	0.0	0.0	adenocarcinoma	t1	g2	complete remission
 C3N-02000	0.0	0.0	adenocarcinoma	t1	g2	complete remission
 C3N-02002	0.0	0.0	adenocarcinoma	t1	g2	not applicable
 C3N-02003	0.0	0.0	adenocarcinoma	t2	g3	complete remission
@@ -99,7 +90,6 @@ C3N-02158	0.0	0.0	acinar adenocarcinoma	t3	g2	complete remission
 C3N-02379	0.0	1.0	adenocarcinoma	t2	g3	patient deceased
 C3N-02380	1.0	0.0	adenocarcinoma	t2	g2	persistent disease
 C3N-02421	0.0	0.0	adenocarcinoma	t1	g3	complete remission
-C3N-02422	1.0	1.0	adenocarcinoma	t2	g3	patient deceased
 C3N-02423	0.0	0.0	adenocarcinoma	t1	g3	complete remission
 C3N-02424	0.0	0.0	adenocarcinoma	t2	g3	complete remission
 C3N-02433	0.0	0.0	adenocarcinoma	t1	g2	complete remission
